@@ -1500,7 +1500,7 @@ public class UIWidget : UIRect
 		else if (mMoved && geometry.hasVertices)
 		{
 			// Want to see what's being moved? Uncomment this line.
-			Debug.Log("Moving " + name + " (" + Time.frameCount + ")");
+			// Debug.Log("Moving " + name + " (" + Time.frameCount + ")");
 
 			if (mMatrixFrame != frame)
 			{
