@@ -31,7 +31,6 @@ public class UIDrawCall : MonoBehaviour
 	/// <summary>
 	/// List of inactive draw calls. Only used at run-time in order to avoid object creation/destruction.
 	/// </summary>
-
 	static public BetterList<UIDrawCall> inactiveList { get { return mInactiveList; } }
 
 	[DoNotObfuscateNGUI] public enum Clipping : int
