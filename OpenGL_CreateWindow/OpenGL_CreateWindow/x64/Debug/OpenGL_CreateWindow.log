@@ -1,0 +1,14 @@
+﻿  ma.cpp
+C:\vs_include\learnopengl\shader_m.h(56,41): warning C4101: “e”: 未引用的局部变量
+C:\Users\56988\source\repos\OpenGL_CreateWindow\OpenGL_CreateWindow\ma.cpp(182,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\56988\source\repos\OpenGL_CreateWindow\OpenGL_CreateWindow\ma.cpp(161,15): warning C4101: “imgH”: 未引用的局部变量
+C:\Users\56988\source\repos\OpenGL_CreateWindow\OpenGL_CreateWindow\ma.cpp(161,9): warning C4101: “imgW”: 未引用的局部变量
+C:\Users\56988\source\repos\OpenGL_CreateWindow\OpenGL_CreateWindow\ma.cpp(161,21): warning C4101: “imgC”: 未引用的局部变量
+C:\Users\56988\source\repos\OpenGL_CreateWindow\OpenGL_CreateWindow\ma.cpp(293,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\56988\source\repos\OpenGL_CreateWindow\OpenGL_CreateWindow\ma.cpp(294,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\56988\source\repos\OpenGL_CreateWindow\OpenGL_CreateWindow\ma.cpp(298,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\56988\source\repos\OpenGL_CreateWindow\OpenGL_CreateWindow\ma.cpp(299,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+C:\Users\56988\source\repos\OpenGL_CreateWindow\OpenGL_CreateWindow\ma.cpp(301,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\56988\source\repos\OpenGL_CreateWindow\OpenGL_CreateWindow\ma.cpp(302,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\56988\source\repos\OpenGL_CreateWindow\OpenGL_CreateWindow\ma.cpp(311,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  OpenGL_CreateWindow.vcxproj -> C:\Users\56988\source\repos\OpenGL_CreateWindow\x64\Debug\OpenGL_CreateWindow.exe
