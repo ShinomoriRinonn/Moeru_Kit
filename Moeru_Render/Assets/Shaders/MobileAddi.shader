@@ -9,7 +9,8 @@
     {
         Tags { "RenderType"="Transparent" }
         LOD 100
-
+        Blend SrcAlpha One
+        
         Pass
         {
             CGPROGRAM
@@ -36,8 +37,6 @@
 
             sampler2D _MainTexAlpha;
             float4 _MainTexAlpha_ST;
-
-            Blend SrcAlpha One
 
             v2f vert (appdata v)
             {
