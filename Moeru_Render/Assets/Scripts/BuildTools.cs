@@ -7,7 +7,7 @@ namespace XYDEditor
         {
             ProcessStartInfo start = new ProcessStartInfo(command, argument);
             string res = "";
-            start.CreateNoWindow = false;
+            start.CreateNoWindow = true;
             start.ErrorDialog = true;
             start.UseShellExecute = true;
 

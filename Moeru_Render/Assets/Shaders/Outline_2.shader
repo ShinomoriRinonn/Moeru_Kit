@@ -21,54 +21,55 @@ Shader "ApcShader/OutlineZOffset2"
     {  
         
 //描边使用两个Pass，第一个pass沿法线挤出一点，只输出描边的颜色  
-        Pass  
-        {  
-            //剔除正面，只渲染背面，对于大多数模型适用，不过如果需要背面的，就有问题了  
-            Cull Front  
-            //控制深度偏移，描边pass远离相机一些，防止与正常pass穿插  
-            Offset 1,1  
-            CGPROGRAM  
-            #include "UnityCG.cginc"  
-            fixed4 _OutlineCol;  
-            float _OutlineFactor;  
+        // Pass  
+        // {  
+        //     //剔除正面，只渲染背面，对于大多数模型适用，不过如果需要背面的，就有问题了  
+        //     Cull Front  
+        //     //控制深度偏移，描边pass远离相机一些，防止与正常pass穿插  
+        //     Offset 1,1  
+        //     CGPROGRAM  
+        //     #include "UnityCG.cginc"  
+        //     fixed4 _OutlineCol;  
+        //     float _OutlineFactor;  
               
-            struct v2f  
-            {  
-                float4 pos : SV_POSITION;  
-            };  
+        //     struct v2f  
+        //     {  
+        //         float4 pos : SV_POSITION;  
+        //     };  
               
-            v2f vert(appdata_full v)  
-            {  
-                v2f o;  
-                //在vertex阶段，每个顶点按照法线的方向偏移一部分，不过这种会造成近大远小的透视问题  
-                //v.vertex.xyz += v.normal * _OutlineFactor;  
-                o.pos = UnityObjectToClipPos(v.vertex);  
-                //将法线方向转换到视空间  
-                float3 vnormal = mul((float3x3)UNITY_MATRIX_IT_MV, v.normal);  
-                //将视空间法线xy坐标转化到投影空间  
-                float2 offset = TransformViewToProjection(vnormal.xy);  
-                //在最终投影阶段输出进行偏移操作  
-                o.pos.xy += offset * _OutlineFactor;  
-                return o;  
-            }  
+        //     v2f vert(appdata_full v)  
+        //     {  
+        //         v2f o;  
+        //         //在vertex阶段，每个顶点按照法线的方向偏移一部分，不过这种会造成近大远小的透视问题  
+        //         //v.vertex.xyz += v.normal * _OutlineFactor;  
+        //         o.pos = UnityObjectToClipPos(v.vertex);  
+        //         //将法线方向转换到视空间  
+        //         float3 vnormal = mul((float3x3)UNITY_MATRIX_IT_MV, v.normal);  
+        //         //将视空间法线xy坐标转化到投影空间  
+        //         float2 offset = TransformViewToProjection(vnormal.xy);  
+        //         //在最终投影阶段输出进行偏移操作  
+        //         o.pos.xy += offset * _OutlineFactor;  
+        //         return o;  
+        //     }  
               
-            fixed4 frag(v2f i) : SV_Target  
-            {  
-                //这个Pass直接输出描边颜色  
-                return _OutlineCol;  
-            }  
+        //     fixed4 frag(v2f i) : SV_Target  
+        //     {  
+        //         //这个Pass直接输出描边颜色  
+        //         return _OutlineCol;  
+        //     }  
               
-            //使用vert函数和frag函数  
-            #pragma vertex vert  
-            #pragma fragment frag  
-            ENDCG  
-        }  
+        //     //使用vert函数和frag函数  
+        //     #pragma vertex vert  
+        //     #pragma fragment frag  
+        //     ENDCG  
+        // }  
           
         //正常着色的Pass，拉远一点  
         Pass  
         {  
             //拉远一点，强行导致上一个Pass渲染的背面与此处发生Z-Fighting  
-            Offset 3,-1  
+            // Offset 3,-1  
+            ZWrite off
             CGPROGRAM     
               
             //引入头文件  
@@ -95,6 +96,7 @@ Shader "ApcShader/OutlineZOffset2"
                 //通过TRANSFORM_TEX宏转化纹理坐标，主要处理了Offset和Tiling的改变,默认时等同于o.uv = v.texcoord.xy;  
                 o.uv = TRANSFORM_TEX(v.texcoord, _MainTex);  
                 o.worldNormal = mul(v.normal, (float3x3)unity_WorldToObject);  
+                o.pos = float4(o.pos.xy, 1, o.pos.w);
                 return o;  
             }  
   
@@ -115,6 +117,7 @@ Shader "ApcShader/OutlineZOffset2"
                 fixed4 color = tex2D(_MainTex, i.uv);  
                 color.rgb = color.rgb* diffuse;  
                 return fixed4(color);  
+                // return fixed4(1,1,1,1);
             }  
   
             //使用vert函数和frag函数  
