@@ -12,6 +12,8 @@
         Pass
         {
             Blend SrcAlpha OneMinusSrcAlpha
+            ZWrite off
+            
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
