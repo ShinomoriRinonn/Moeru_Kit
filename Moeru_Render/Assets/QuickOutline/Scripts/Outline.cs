@@ -195,12 +195,38 @@ public class Outline : MonoBehaviour {
       meshFilter.sharedMesh.SetUVs(3, smoothNormals);
     }
 
-    // Clear UV3 on skinned mesh renderers
-    foreach (var skinnedMeshRenderer in GetComponentsInChildren<SkinnedMeshRenderer>()) {
-      if (registeredMeshes.Add(skinnedMeshRenderer.sharedMesh)) {
-        skinnedMeshRenderer.sharedMesh.uv4 = new Vector2[skinnedMeshRenderer.sharedMesh.vertexCount];
+    // Clear UV3 on skinned mesh renderers -- why
+    // foreach (var skinnedMeshRenderer in GetComponentsInChildren<SkinnedMeshRenderer>()) {
+    //   if (registeredMeshes.Add(skinnedMeshRenderer.sharedMesh)) {
+    //     skinnedMeshRenderer.sharedMesh.uv4 = new Vector2[skinnedMeshRenderer.sharedMesh.vertexCount];
+    //   }
+    // }
+    foreach (var smr in GetComponentsInChildren<SkinnedMeshRenderer>()) {
+
+      // Skip if smooth normals have already been adopted
+      if (!registeredMeshes.Add(smr.sharedMesh)) {
+        continue;
       }
+
+      // Retrieve or generate smooth normals
+      var index = bakeKeys.IndexOf(smr.sharedMesh);
+      var smoothNormals = (index >= 0) ? bakeValues[index].data : SmoothNormals(smr.sharedMesh);
+
+      // Store smooth normals in UV3
+      smr.sharedMesh.SetUVs(3, smoothNormals); 
+      smr.sharedMesh.SetNormals(smoothNormals);
+      smr.sharedMesh.SetTangents(getNewVector4(smoothNormals));
     }
+  }
+
+  List<Vector4> getNewVector4(List<Vector3> l){
+    List<Vector4> ret = new List<Vector4>();
+    for (int i = 0; i < l.Count; i++)
+    {
+        var normal = l[i];
+        ret.Add(new Vector4(normal.x, normal.y, normal.z, 0));
+    }
+    return ret;
   }
 
   List<Vector3> SmoothNormals(Mesh mesh) {
