@@ -11,7 +11,7 @@ Shader "Custom/Outline Fill" {
     [Enum(UnityEngine.Rendering.CompareFunction)] _ZTest("ZTest", Float) = 0
 
     _OutlineColor("Outline Color", Color) = (1, 1, 1, 1)
-    _OutlineWidth("Outline Width", Range(0, 10)) = 2
+    _OutlineWidth("Outline Width", Float) = 2
   }
 
   SubShader {
@@ -43,7 +43,8 @@ Shader "Custom/Outline Fill" {
       struct appdata {
         float4 vertex : POSITION;
         float3 normal : NORMAL;
-        float3 smoothNormal : TEXCOORD3;
+        float3 smoothNormal : TANGENT;
+        float3 smoothNormalUV : TEXCOORD3;
         UNITY_VERTEX_INPUT_INSTANCE_ID
       };
 
@@ -62,11 +63,17 @@ Shader "Custom/Outline Fill" {
         UNITY_SETUP_INSTANCE_ID(input);
         UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(output);
 
-        float3 normal = any(input.smoothNormal) ? input.smoothNormal : input.normal;
-        float3 viewPosition = UnityObjectToViewPos(input.vertex);
-        float3 viewNormal = normalize(mul((float3x3)UNITY_MATRIX_IT_MV, normal));
+        // float3 normal = any(input.smoothNormal) ? input.smoothNormal : input.normal;
+        // float3 normal = normalize(input.normal);
+        float3 normal = normalize(input.smoothNormal);
+        // float3 normal = normalize(input.smoothNormalUV);
+        //input.smoothNormal;
+        float4 worldPos = input.vertex + normalize(float4(normal, 0)) * _OutlineWidth;
+        output.position = UnityObjectToClipPos(worldPos);
+        // float3 viewPosition = UnityObjectToViewPos(input.vertex);
+        // float3 viewNormal = normalize(mul((float3x3)UNITY_MATRIX_IT_MV, normal));
 
-        output.position = UnityViewToClipPos(viewPosition + viewNormal * -viewPosition.z * _OutlineWidth / 1000.0);
+        // output.position = UnityViewToClipPos(viewPosition + viewNormal * -viewPosition.z * _OutlineWidth / 10.0);
         output.color = _OutlineColor;
 
         return output;
