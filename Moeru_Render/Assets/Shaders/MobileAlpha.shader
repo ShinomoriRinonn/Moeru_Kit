@@ -52,6 +52,11 @@
                 // sample the texture
                 fixed4 col = tex2D(_MainTex, i.uv);
                 col = col * i.color;
+
+                // 做个快乐反向
+                // FragColor = vec4(vec3(1.0 - texture(screenTexture, TexCoords)), 1.0);
+                col = float4(1-col.r, 1-col.g, 1-col.b, 1.0);
+
                 // apply fog
                 // UNITY_APPLY_FOG(i.fogCoord, col);
 

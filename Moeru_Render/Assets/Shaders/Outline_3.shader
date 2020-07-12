@@ -33,7 +33,8 @@ Shader "ApcShader/Outline_normal2projxy"
             #include "UnityCG.cginc"  
             fixed4 _OutlineCol;  
             float _OutlineFactor;  
-              
+            sampler2D _OutlineTex;
+
             struct v2f  
             {  
                 float4 pos : SV_POSITION;  
