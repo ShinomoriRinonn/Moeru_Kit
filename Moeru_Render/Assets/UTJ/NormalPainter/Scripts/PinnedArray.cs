@@ -193,18 +193,20 @@ namespace UTJ.NormalPainter
 
         public static T[] ListGetInternalArray(List<T> list)
         {
-            var caster = new Caster();
-            caster.list = list;
-            return caster.data.items;
+            // var caster = new Caster();
+            // caster.list = list;
+            // return caster.data.items;
+            return list.ToArray();
         }
         public static List<T> ListCreateIntrusive(T[] data)
         {
-            var ret = new List<T>();
-            var caster = new Caster();
-            caster.list = ret;
-            caster.data.items = data;
-            caster.data.size = data.Length;
-            return ret;
+            // var ret = new List<T>();
+            // var caster = new Caster();
+            // caster.list = ret;
+            // caster.data.items = data;
+            // caster.data.size = data.Length;
+            // return ret;
+            return new List<T>(data);
         }
         public static void ListSetCount(List<T> list, int count)
         {
