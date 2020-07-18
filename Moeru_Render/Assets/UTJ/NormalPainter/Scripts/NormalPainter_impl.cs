@@ -569,13 +569,13 @@ namespace UTJ.NormalPainter
                         IntPtr.Zero, m_normalsPredeformed, IntPtr.Zero,
                         IntPtr.Zero, m_normals, IntPtr.Zero);
                 }
-                m_meshTarget.SetNormals(m_normalsPredeformed);
+                m_meshTarget.SetNormals(m_normalsPredeformed.List);
             }
             else
             {
                 if (mirror)
                     ApplyMirroringInternal();
-                m_meshTarget.SetNormals(m_normals);
+                m_meshTarget.SetNormals(m_normals.List);
             }
 
             if (m_settings.tangentsMode == TangentsUpdateMode.Realtime)
@@ -651,7 +651,7 @@ namespace UTJ.NormalPainter
             }
 
             if (updateMesh)
-                m_meshTarget.SetTangents(m_tangentsPredeformed);
+                m_meshTarget.SetTangents(m_tangentsPredeformed.List);
 
             if (m_cbTangents != null)
                 m_cbTangents.SetData(m_tangents);

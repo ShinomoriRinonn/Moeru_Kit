@@ -91,6 +91,8 @@ namespace UTJ.NormalPainter
                     EditorGUI.BeginChangeCheck();
                     m_target.editing = GUILayout.Toggle(m_target.editing, EditorGUIUtility.IconContent("EditCollider"),
                         "Button", GUILayout.Width(33), GUILayout.Height(23));
+                    m_target.editing = true;
+                    Debug.Log("m_target.editing .... " + m_target.editing);
                     if (EditorGUI.EndChangeCheck())
                     {
                         if (m_target.editing)
