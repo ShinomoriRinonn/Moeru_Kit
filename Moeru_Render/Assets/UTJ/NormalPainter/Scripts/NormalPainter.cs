@@ -37,16 +37,16 @@ namespace UTJ.NormalPainter
 
         // internal resources
         [SerializeField] Mesh m_meshTarget;
-        [SerializeField] Mesh m_meshPoint;
-        [SerializeField] Mesh m_meshVector;
+        [SerializeField] Mesh m_meshPoint;  // 用于画 point的mesh data
+        [SerializeField] Mesh m_meshVector; // 用于画 vector的mesh data
         [SerializeField] Mesh m_meshLasso;
         [SerializeField] Material m_matVisualize;
         [SerializeField] Material m_matOverlay;
         [SerializeField] Material m_matBake;
         [SerializeField] ComputeShader m_csBakeFromMap;
 
-        ComputeBuffer m_cbArgPoints;
-        ComputeBuffer m_cbArgVectors;
+        ComputeBuffer m_cbArgPoints;  // 用于画 point 的cb
+        ComputeBuffer m_cbArgVectors;   // 用于画 vector的 cb
         ComputeBuffer m_cbPoints;
         ComputeBuffer m_cbNormals;
         ComputeBuffer m_cbTangents;
@@ -247,12 +247,14 @@ namespace UTJ.NormalPainter
                 m_normals = new PinnedList<Vector3>(m_meshTarget.normals);
                 if (m_normals.Count == 0)
                 {
+                    Debug.Log("this model's normal is recalculated by Unity");
                     m_meshTarget.RecalculateNormals();
                     m_normalsBase = m_normals = new PinnedList<Vector3>(m_meshTarget.normals);
                 }
                 else
                 {
                     m_meshTarget.RecalculateNormals();
+                    Debug.Log("recalculated by Unity, but the value is stored inside, while original normal data is exactly to mesh");
                     m_normalsBase = new PinnedList<Vector3>(m_meshTarget.normals);
                     m_meshTarget.normals = m_normals;
                 }
@@ -262,11 +264,13 @@ namespace UTJ.NormalPainter
                 m_tangents = new PinnedList<Vector4>(m_meshTarget.tangents);
                 if (m_tangents.Count == 0)
                 {
+                    Debug.Log("this model's tangent is recalculated by Unity");
                     m_meshTarget.RecalculateTangents();
                     m_tangentsBase = m_tangents = new PinnedList<Vector4>(m_meshTarget.tangents);
                 }
                 else
                 {
+                    Debug.Log("recalculated by Unity, but the value is stored inside, while original tangent data is exactly to mesh");
                     m_meshTarget.RecalculateTangents();
                     m_tangentsBase = new PinnedList<Vector4>(m_meshTarget.tangents);
                     m_meshTarget.tangents = m_tangents;
@@ -788,7 +792,7 @@ namespace UTJ.NormalPainter
         }
 
 
-        void OnDrawGizmosSelected()
+        void OnDrawGizmosSelected() // 绘制线框
         {
             if(!m_editing) { return; }
 
@@ -807,7 +811,7 @@ namespace UTJ.NormalPainter
 
             var trans = GetComponent<Transform>();
             var matrix = trans.localToWorldMatrix;
-            var renderer = GetComponent<Renderer>();
+            var renderer = GetComponent<Renderer>();  // 取了该Node的Renderer?!
 
             m_matVisualize.SetMatrix("_Transform", matrix);
             m_matVisualize.SetFloat("_VertexSize", m_settings.vertexSize);
@@ -853,7 +857,7 @@ namespace UTJ.NormalPainter
                 m_matVisualize.SetColor("_VertexColor3", Color.black);
             }
 
-            if (m_cbPoints != null) m_matVisualize.SetBuffer("_Points", m_cbPoints);
+            if (m_cbPoints != null) m_matVisualize.SetBuffer("_Points", m_cbPoints);            // m_matVisualize 直接setBuffer 把vertex数据塞进来了
             if (m_cbNormals != null) m_matVisualize.SetBuffer("_Normals", m_cbNormals);
             if (m_cbTangents != null) m_matVisualize.SetBuffer("_Tangents", m_cbTangents);
             if (m_cbSelection != null) m_matVisualize.SetBuffer("_Selection", m_cbSelection);
@@ -883,15 +887,19 @@ namespace UTJ.NormalPainter
             }
 
             // visualize brush range
-            if (m_settings.showBrushRange && m_rayHit && brushMode)
-                m_cmdDraw.DrawRenderer(renderer, m_matVisualize, 0, (int)VisualizeType.BrushRange);
+            // if (m_settings.showBrushRange && m_rayHit && brushMode)
+            //     m_cmdDraw.DrawRenderer(renderer, m_matVisualize, 0, (int)VisualizeType.BrushRange);
 
             if(m_settings.visualize)
             {
                 // visualize vertices
                 if (m_settings.showVertices && m_points != null)
-                    m_cmdDraw.DrawMeshInstancedIndirect(m_meshPoint, 0, m_matVisualize, (int)VisualizeType.Vertices, m_cbArgPoints);
-
+                    m_cmdDraw.DrawMeshInstancedIndirect(m_meshPoint, 0, m_matVisualize, (int)VisualizeType.Vertices, m_cbArgPoints); 
+                    // 这里只传入了一个meshPoint 即一个快乐立方体、cbArgPoints才是ComputeBuffer的Core
+                    // ShaderPass 控制入口
+                    // mesh 作为 shader.app_input.vertex 塞进来
+                    // 原Node的Mesh 塞入了 material.points 中
+                
                 // visualize binormals
                 if (m_settings.showBinormals && m_tangents != null)
                     m_cmdDraw.DrawMeshInstancedIndirect(m_meshVector, 0, m_matVisualize, (int)VisualizeType.Binormals, m_cbArgVectors);

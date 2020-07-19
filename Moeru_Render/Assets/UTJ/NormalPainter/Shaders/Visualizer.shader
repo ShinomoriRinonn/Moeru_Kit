@@ -45,13 +45,15 @@ struct vs_out
 
 vs_out vert_vertices(ia_out v)
 {
-    float3 pos = (mul(_Transform, float4(_Points[v.instanceID], 1.0))).xyz;
+    float3 pos = (mul(_Transform, float4(_Points[v.instanceID], 1.0))).xyz; // 基于这个传进来的transform 完成了骨骼动画也绘制ok哦
+    // float4 vertex = float4(0,0,0,1);
 
     float s = _Selection[v.instanceID];
-    float4 vertex = v.vertex;
-    vertex.xyz *= _VertexSize;
+    float4 vertex = v.vertex;   // vertex = [1,1,1] 用于描述立方体
+    vertex.xyz *= _VertexSize;  // vertexSize = [10, 10, 10] 
     vertex.xyz *= abs(mul(UNITY_MATRIX_V, float4(pos, 1.0)).z);
     vertex.xyz += pos;
+    
     vertex = mul(UNITY_MATRIX_VP, vertex);
 
     vs_out o;
@@ -70,9 +72,11 @@ vs_out vert_normals(ia_out v)
     float3 dir = normalize((mul(_Transform, float4(_Normals[v.instanceID], 0.0))).xyz);
 
     float s = _OnlySelected ? _Selection[v.instanceID] : 1.0f;
-    s *= abs(mul(UNITY_MATRIX_V, float4(pos, 1.0)).z);
+    // s *= abs(mul(UNITY_MATRIX_V, float4(pos, 1.0)).z);
     float4 vertex = v.vertex;
-    vertex.xyz += pos + dir * v.uv.x * _NormalSize * s;
+    vertex.xyz += pos + dir * v.uv.x * _NormalSize * s * float3(2,2,2); // 这里mesh_vector[0] 与mesh_vector[1] 作为一条线被绘制 所以连出了黄线 
+    
+    // vertex.xyz += pos + dir * v.uv.x * _NormalSize * s;
     vertex = mul(UNITY_MATRIX_VP, vertex);
 
     vs_out o;

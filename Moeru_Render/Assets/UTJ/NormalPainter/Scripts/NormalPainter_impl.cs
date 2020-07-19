@@ -789,7 +789,7 @@ namespace UTJ.NormalPainter
             var rmax = new Vector2(Math.Max(r1.x, r2.x), Math.Max(r1.y, r2.y));
 
             return npSelectRect(ref m_npModelData,
-                ref mvp, rmin, rmax, campos, strength, frontFaceOnly) > 0;
+                ref mvp, rmin, rmax, campos, strength, frontFaceOnly) > 0;  // 此处draw了一哈
         }
 
         public bool SelectLasso(Vector2[] lasso, float strength, bool frontFaceOnly)

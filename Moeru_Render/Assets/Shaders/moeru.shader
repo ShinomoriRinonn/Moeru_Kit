@@ -4,7 +4,7 @@
     {
         _MainTex ("Texture", 2D) = "white" {}
         // [Enum(UnityEngine.Rendering.ZTest)]
-        _ztestOP("Ztest OP", Float) = 8
+        // _ztestOP("Ztest OP", Float) = 8
     }
     // ZTest [_ztestOP]
     SubShader
