@@ -13,6 +13,8 @@ v2f vert (appdata v)
     o.TtoV0 = normalize(mul(rotation, UNITY_MATRIX_IT_MV[0].xyz));
     o.TtoV1 = normalize(mul(rotation, UNITY_MATRIX_IT_MV[1].xyz));
 
+    UNITY_MATRIX_
+
     o.worldView = normalize(WorldSpaceViewDir(v.vertex));
     o.worldNormal = UnityObjectToWorldNormal(v.normal);
 

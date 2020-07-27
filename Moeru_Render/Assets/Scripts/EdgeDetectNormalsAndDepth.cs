@@ -57,24 +57,23 @@ public class EdgeDetectNormalsAndDepth : PostEffectsBase {
 	void OnEnable() {
 		// GetComponent<Camera>().depthTextureMode |= DepthTextureMode.DepthNormals;
 		Mesh m = CreateMesh(1920, 1080);
-		GameObject.
 	}
 
 	// [ImageEffectOpaque]
 	void OnRenderImage (RenderTexture src, RenderTexture dest) {
-		if (material != null) {
-			Debug.Log("###################### OnRenderImage !!!!!!!!!!!!!");
+		// if (material != null) {
+		// 	Debug.Log("###################### OnRenderImage !!!!!!!!!!!!!");
 
-			material.SetFloat("_EdgeOnly", edgesOnly);
-			material.SetColor("_EdgeColor", edgeColor);
-			material.SetColor("_BackgroundColor", backgroundColor);
-			material.SetFloat("_SampleDistance", sampleDistance);
-			material.SetVector("_Sensitivity", new Vector4(sensitivityNormals, sensitivityDepth, 0.0f, 0.0f));
+		// 	material.SetFloat("_EdgeOnly", edgesOnly);
+		// 	material.SetColor("_EdgeColor", edgeColor);
+		// 	material.SetColor("_BackgroundColor", backgroundColor);
+		// 	material.SetFloat("_SampleDistance", sampleDistance);
+		// 	material.SetVector("_Sensitivity", new Vector4(sensitivityNormals, sensitivityDepth, 0.0f, 0.0f));
 
-			Graphics.Blit(src, dest, material);
-		} else {
-			Debug.Log("######################### No material on OnRenderImage !!!!!!!!!!!!!");
-			Graphics.Blit(src, dest);
-		}
+		// 	Graphics.Blit(src, dest, material);
+		// } else {
+		// 	Debug.Log("######################### No material on OnRenderImage !!!!!!!!!!!!!");
+		// 	Graphics.Blit(src, dest);
+		// }
 	}
 }
