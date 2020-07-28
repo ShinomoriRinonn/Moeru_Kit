@@ -38,7 +38,7 @@ Shader "xydToon/HairRamp"
             sampler2D _Ramp;
             float _DetailOutLineSize;
             fixed4 _DetailOutLineColor;
-            fixed4 _Specular;
+            fixed4 _Specular;       // 反射光的base 用于与HairSpecular作乘算
             fixed _SpecularScale;
             fixed _MainHairSpecularSmooth;
             fixed _FuHairSpecularSmooth;

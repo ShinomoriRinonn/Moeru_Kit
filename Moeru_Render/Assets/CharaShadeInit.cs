@@ -20,17 +20,16 @@ public class CharaShadeInit : MonoBehaviour
 
     void OnPreRender()
     {
-        UnityEngine.Debug.Log("OnShadeInit");
-        GameObject go = GameObject.FindGameObjectWithTag("kiana");
-        GameObject.Find
-        SkinnedMeshRenderer[] lsmr = go.GetComponentsInChildren<SkinnedMeshRenderer>();
-        foreach (SkinnedMeshRenderer smr in lsmr)
-        {
-            // smr.material.SetInt("_ColorMask", 0);
-            UnityEngine.Debug.Log("## switch to charainit");
-            // smr.material = Resources.Load<Material>("matCharaInit");
-            smr.material =  .LoadAssetAtPath<Material>("Assets/Shaders/matCharaInit.mat") as Material;
-            // smr.material = Resources.Load<Material>("Shaders/matCharaInit.mat");
-        }
+        // UnityEngine.Debug.Log("OnShadeInit");
+        // GameObject go = GameObject.FindGameObjectWithTag("kiana");
+        // SkinnedMeshRenderer[] lsmr = go.GetComponentsInChildren<SkinnedMeshRenderer>();
+        // foreach (SkinnedMeshRenderer smr in lsmr)
+        // {
+        //     // smr.material.SetInt("_ColorMask", 0);
+        //     UnityEngine.Debug.Log("## switch to charainit");
+        //     // smr.material = Resources.Load<Material>("matCharaInit");
+        //     // smr.material =  .LoadAssetAtPath<Material>("Assets/Shaders/matCharaInit.mat") as Material;
+        //     // smr.material = Resources.Load<Material>("Shaders/matCharaInit.mat");
+        // }
     }
 }

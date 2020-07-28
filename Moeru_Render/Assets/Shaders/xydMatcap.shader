@@ -26,6 +26,8 @@ Shader "xydToon/Matcap"
             Name "Matcap_shaded"
 
             CGPROGRAM  
+            #pragma multi_compile_instancing
+
             #include "UnityCG.cginc"  
             fixed4 _OutlineCol;  
             float _OutlineFactor;  
@@ -35,7 +37,16 @@ Shader "xydToon/Matcap"
             float _Matcap_Scale01;
             float _Matcap_Scale02;
 
-
+            struct appdata
+            {
+                UNITY_VERTEX_INPUT_INSTANCE_ID
+                float4 vertex : POSITION;
+                float4 tangent : TANGENT;
+                float3 normal : NORMAL;
+                float4 texcoord : TEXCOORD0;
+                float4 texcoord1 : TEXCOORD1;
+                fixed4 color : COLOR;
+            };
 
             struct v2f  
             {  
@@ -45,9 +56,19 @@ Shader "xydToon/Matcap"
                 fixed4 color : COLOR;
             };  
               
-            v2f vert(appdata_full v)  
+            v2f vert(appdata v)  
             {  
+                // InterpolatorsVertex i;
+                // UNITY_INITIALIZE_OUTPUT(Interpolators, i);
+                // UNITY_SETUP_INSTANCE_ID(v);
+                // i.pos = UnityObjectToClipPos(v.vertex);
+                
+
                 v2f o;  
+                UNITY_INITIALIZE_OUTPUT(v2f, o);
+                UNITY_SETUP_INSTANCE_ID(v);
+                // o.pos = UnityObjectToClipPos(v.vertex);
+
                 float3 normal = normalize(v.normal);
 
                 o.pos = UnityObjectToClipPos(v.vertex);  
@@ -56,6 +77,9 @@ Shader "xydToon/Matcap"
                 o.viewNormal = normalize(mul(UNITY_MATRIX_V, float4(worldNormal, 0)).xyz);
                 o.texcoord = v.texcoord;
                 o.color = v.color;
+
+
+
                 return o;  
             }  
               
