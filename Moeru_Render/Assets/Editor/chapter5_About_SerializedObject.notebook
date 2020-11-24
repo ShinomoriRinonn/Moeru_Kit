@@ -1,0 +1,100 @@
+よく入門書などで、「 インスペクターに変数の値を表示するには public にする」ということを目にしたか
+もしれません。これはプログラマー以外でも理解しやすいように言っているだけで、public 変数にするのは
+シリアライズ対象の条件の 1 つでしかありません。エディター拡張を行うユーザーは private フィールドに
+SerializeField 属性を付けることをお勧めします。
+
+[SerializeField]
+private string m_str;
+public string str
+{
+    get
+    {
+        return m_str;
+    }
+    set
+    {
+        m_str = value;
+    }
+}
+
+SerializedObject からパラメーターを取得する
+シリアライズされたデータは SerializedProperty として取得することが可能です。
+イテレーターとして取得することが可能で、本章の前半で紹介したプロパティーの一覧をログに表示するコー
+ドは、イテレーターを使って操作可能な全プロパティーを取得しています。
+[InitializeOnLoadMethod]
+static void CheckPropertyPaths()
+{
+    var so = new SerializedObject(Texture2D.whiteTexture);
+    var pop = so.GetIterator();
+    while (pop.NextVisible(true))
+        Debug.Log(pop.propertyPath);
+}
+
+また、パスを指定して特定の SerializedProperty を取得することも可能です。
+例えば「Vector3 型 position 変数」の値を取得したい時、
+public class Hoge : MonoBehaviour
+{
+    [SerializeField] Vector3 position;
+}
+var hoge = /* さまざまな方法で Hoge コンポーネントを取得 */;
+var serializedObject = new SerializedObject(hoge);
+serializedObject.FindProperty("position").vector3Value;
+
+「Fuga 型の fuga 変数内にある string 型 bar 変数」の値を取得したい時、
+[System.Serializable]
+public class Fuga
+{
+    [SerializeField] string bar;
+}
+public class Hoge : MonoBehaviour
+{
+    [SerializeField] Fuga fuga;
+}
+var hoge = /* さまざまな方法で Hoge コンポーネントを取得 */;
+var serializedObject = new SerializedObject(hoge);
+serializedObject.FindProperty("fuga.bar").stringValue;
+
+「string の配列で 2 番目」の値を取得したい時
+public class Hoge : MonoBehaviour
+{
+    [SerializeField] string[] names;
+}
+var hoge = /* さまざまな方法で Hoge コンポーネントを取得 */;
+var serializedObject = new SerializedObject(hoge);
+serializedObject.FindProperty("names").GetArrayElementAtIndex(1);
+
+
+最新のデータを取得、更新
+SerializedObject は内部でキャッシュされており、インスタンス化した時に、すでにキャッシュされていれば
+キャッシュから引っ張ってきます。
+例えば、エディターウィンドウとインスペクター内部でそれぞれ 1 つのオブジェクトに対する SerializedObject を生成した場合、2 つの SerializedObject を同期しなければ、どちらかが古いままの情報で更新してしま
+うことがあるかもしれません。
+
+public class NewBehaviourScript : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        serializedObject.Update();    // 考虑到复数窗口编辑同一份serializedObject，所以加入Update()，先同步先前时序的ApplyModified
+        EditorGUILayout.PropertyField(serializedObject.FindProperty("name"));
+        //他、さまざまな処理
+        serializedObject.ApplyModifiedProperties();  // 同上。 固定本时序片段的modifed，用以下一时序的editorwindow在此base上修改
+    }
+}
+
+豆 知 識 と し て 、UnityEditorInternal 名 前 空 間 に あ る InternalEditorUtil￾ity.SaveToSerializedFileAndForget で UnityEngine.Object をアセットとして保存できます。
+using UnityEngine;
+using UnityEditorInternal;
+using UnityEditor;
+public class NewBehaviourScript : MonoBehaviour
+{
+    void Start()
+    {
+        var rigidbody = GetComponent<Rigidbody>();
+        InternalEditorUtility.SaveToSerializedFileAndForget(
+        new Object[] { rigidbody },
+        "Rigidbody.yml",
+        56 booth version
+        第 5 章 SerializedObject について
+        true);
+    }
+}
