@@ -14,9 +14,10 @@ public static class SpriteUtils
 
         foreach (var vertice in olds){
             var v3 = new Vector3(vertice.x, vertice.y, 0);
-            var dst = new Vector3(v3.x + 1, v3.y +1, 0);
-            UnityEngine.Debug.DrawLine(v3, dst, Color.red, 100);
+            var dst = new Vector3(v3.x, v3.y, 1);
+            UnityEngine.Debug.DrawLine(v3, dst, Color.yellow, 100);
         }
+        Debug.Log("======================>>>        " + olds.Length.ToString());
     }
 
 }
