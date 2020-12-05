@@ -1,0 +1,15 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Atlases_sp2/Mapres_1009/Mapres_10090_RGB.tpsheet
+- Assets/Atlases_sp2/moeruAi/moeruAi0_RGB.tpsheet
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+textureFileNames:
+- Assets/Atlases_sp2/Mapres_1009/Mapres_10090_RGB.png
+- Assets/Atlases_sp2/moeruAi/moeruAi0_RGB.png
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+normalmapFileNames:
+- 
+- 
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+enableDebugOutput: 0

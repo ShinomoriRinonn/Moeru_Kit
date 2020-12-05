@@ -21,6 +21,17 @@ namespace XYDEditor
                 GenerateSpriteAtlasByDir(path);
             }  
         }
+
+        public static void PictureSplit()
+        {
+            string[] strs = Selection.assetGUIDs;
+            if( strs != null && strs.Length >= 1)
+            {
+                string path = AssetDatabase.GUIDToAssetPath(strs[0]);
+                GenerateSpriteAtlasByDir(path);
+            }  
+        }
+
         public static void makeTpSheet(string srcPath, string outKey, bool ignoreOutkey = false)
         {
             StreamReader sr = new StreamReader(srcPath);
@@ -166,7 +177,9 @@ namespace XYDEditor
                         spAss.mAtlases.Clear();
                         assetCleared = true;
                     }
+                    AssetDatabase.Refresh();
                     UnityEngine.Object[] objs2 = AssetDatabase.LoadAllAssetRepresentationsAtPath(XYDDef.AssetRootDirectory + atlasePathName + spIdx + "_RGB.png");
+                    var sth = AssetDatabase.LoadAssetAtPath<GameObject>(XYDDef.AssetRootDirectory + atlasePathName + spIdx + "_RGB.png");
                     // objs2 有着一万个rgb
                     SpriteAtlas singleAtlas = new SpriteAtlas();
                     for (int i = 0; i < objs2.Length; i++){

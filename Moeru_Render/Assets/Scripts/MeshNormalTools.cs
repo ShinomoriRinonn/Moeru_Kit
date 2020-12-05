@@ -755,6 +755,33 @@ public static class MeshNormalTools
         Debug.Log(log);
     }
 
+    public static void NormalAdaptiveFer(Mesh mesh)
+    {
+        List<Vector3> smoothNormals = SmoothNormals(mesh);
+        List<Vector3> uv1 = new List<Vector3>();
+
+        for (int vertexIndice = 0; vertexIndice < mesh.vertices.Length; vertexIndice++){
+            var normal = mesh.normals[vertexIndice];
+            var tangent = mesh.tangents[vertexIndice];
+            var smoothedNormals = smoothNormals[vertexIndice];
+            var bitangent = (Vector3.Cross(normal, tangent) * tangent.w).normalized;
+
+            var tbn = new Matrix4x4(
+                tangent,
+                bitangent,
+                normal,
+                Vector4.zero);
+            tbn = tbn.transpose;
+            var bakedNormal = tbn.MultiplyVector(smoothedNormals).normalized;
+            uv1.Add(bakedNormal);
+        }
+
+        mesh.SetUVs(3, uv1);
+    }
+
+    // public static void printVector<T>(T t) where T: Vector3 {
+        
+    // }
     public static void printColor(Color v){
         string log = "r: " + v.r + ", g: " + v.g + ", b: " + v.b + ", a: " + v.a;
         logstringL.Add(log);

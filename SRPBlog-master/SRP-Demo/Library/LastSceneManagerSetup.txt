@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/SRP-Demo/Scene_two_transparent.unity
+  isLoaded: 1
+  isActive: 1
