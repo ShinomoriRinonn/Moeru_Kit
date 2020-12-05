@@ -1,0 +1,5 @@
+[w_iss_docs_w_p_2020.3.184]
+baseurl=${YUM_BASE_URL}/iss/2020p3/common/docs/win_win/
+name=w_iss_docs_w_p_2020.3.184
+enabled=1
+

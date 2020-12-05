@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<comps>
+  <group>
+    <id>iss_docs_win_win</id>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <display_order>0</display_order>
+    <name>System Studio Documentation for Windows* Target</name>
+    <description>System Studio Documentation for Windows* Target</description>
+    <packagelist>
+      <packagereq type="mandatory">intel-iss-gsg-win-win</packagereq>
+    </packagelist>
+  </group>
+</comps>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otherdata xmlns="http://linux.duke.edu/metadata/other" packages="7">
+<package pkgid="d5a446e8f7ca76a7975a68a61b0a49e79f61aadb" name="intel-cembdw-composer-baseline-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0" rel="528"/>
+
+</package>
+
+<package pkgid="8fffba9a900c08f28a44b0781d6fd2477a0f3574" name="intel-cembdw-composer-baseline-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.1" rel="806"/>
+
+<changelog author="ISS 2020 Update 1" date="1574661600">See the &lt;a href="https://software.intel.com/en-us/articles/intel-system-studio-release-notes-whats-new"&gt;Intel System Studio Release Notes&lt;/a&gt; for a complete list of updates and new features.</changelog>
+
+</package>
+
+<package pkgid="95c05917f2c8977b82f2e540058e2bd691f5fd41" name="intel-cembdw-composer-baseline-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.2" rel="1034"/>
+
+<changelog author="ISS 2020 Update 1" date="1574661600">See the &lt;a href="https://software.intel.com/en-us/articles/intel-system-studio-release-notes-whats-new"&gt;Intel System Studio Release Notes&lt;/a&gt; for a complete list of updates and new features.</changelog>
+
+</package>
+
+<package pkgid="48292b03cff736d92164bce1b2d112064e77813e" name="intel-cembdw-composer-baseline-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.3" rel="1328"/>
+
+<changelog author="ISS 2020 Update 1" date="1574661600">See the &lt;a href="https://software.intel.com/en-us/articles/intel-system-studio-release-notes-whats-new"&gt;Intel System Studio Release Notes&lt;/a&gt; for a complete list of updates and new features.</changelog>
+
+</package>
+
+<package pkgid="933c977808e1df7ed83f5b0622b388e47ef87c73" name="intel-installer" arch="noarch">
+    <version epoch="0" ver="2020.1" rel="806"/>
+
+<changelog author="ISS 2020 Update 1" date="1574661600">See the &lt;a href="https://software.intel.com/en-us/articles/intel-system-studio-release-notes-whats-new"&gt;Intel System Studio Release Notes&lt;/a&gt; for a complete list of updates and new features.</changelog>
+
+</package>
+
+<package pkgid="362dca05c5d9987a4be2a0e477020f8beacddf8f" name="intel-installer" arch="noarch">
+    <version epoch="0" ver="2020.2" rel="1034"/>
+
+<changelog author="ISS 2020 Update 1" date="1574661600">See the &lt;a href="https://software.intel.com/en-us/articles/intel-system-studio-release-notes-whats-new"&gt;Intel System Studio Release Notes&lt;/a&gt; for a complete list of updates and new features.</changelog>
+
+</package>
+
+<package pkgid="850600c0d611ceb6b1144a1ab8ef5f1e74ccf5ec" name="intel-installer" arch="noarch">
+    <version epoch="0" ver="2020.3" rel="1328"/>
+
+<changelog author="ISS 2020 Update 1" date="1574661600">See the &lt;a href="https://software.intel.com/en-us/articles/intel-system-studio-release-notes-whats-new"&gt;Intel System Studio Release Notes&lt;/a&gt; for a complete list of updates and new features.</changelog>
+
+</package>
+
+</otherdata>

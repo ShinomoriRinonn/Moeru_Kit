@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otherdata xmlns="http://linux.duke.edu/metadata/other" packages="22">
+<package pkgid="66c970bd54ad36ca742e4fefa0fb5b408fe36388" name="intel-daal-wt-32bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="9c9ca41601b81afef8303880e61c7636d20827d0" name="intel-daal-wt-64bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="9297f12f97e3d908c32acd76936230b064bc6ef8" name="intel-daal-wt-common-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="c289a546749f1b54cf00c8aa5e824a5a41c3c94b" name="intel-icc-wt-32bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="19.1.2" rel="37"/>
+
+</package>
+
+<package pkgid="060cbf93a3566ed58cc2a62f2f0cce8e6cb6bcbc" name="intel-icc-wt-64bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="19.1.2" rel="37"/>
+
+</package>
+
+<package pkgid="05d3caae96f0831756264720fbfc1b454e8cf225" name="intel-icc-wt-common-meta-windows" arch="noarch">
+    <version epoch="0" ver="19.1.2" rel="37"/>
+
+</package>
+
+<package pkgid="64726c04d0a90a5a9a99c94fe795f69f27e86edb" name="intel-icc-wt-gs-win" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="4743426405806ba9f79ba6986f8633bef4fa9e02" name="intel-ipp-wt-common-32b-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="f778232fd1632eb4aa36577f1d562a2993c48d98" name="intel-ipp-wt-common-64b-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="89014ba6be5c0e36ec05a2ba9803faf06b044514" name="intel-ipp-wt-common-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="5920085fb73ad437a1ce04599bef94aadfe96cd2" name="intel-ipp-wt-mt-32bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="b7b0abccccdb0ad5662ac91de35e720b9c3bf62c" name="intel-ipp-wt-mt-64bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="aeb0febc04c5fb754af6e19f7a41fc8d6a908b16" name="intel-ipp-wt-st-32bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="255cdc2fb5c2449192edaf6a9c0a74d3e352cc44" name="intel-ipp-wt-st-64bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="0d47055c6ec5b1b913bd69cac2b3332dade9700c" name="intel-mkl-wt-32bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="e61593d792128894bfbe5f94cf9debd367046474" name="intel-mkl-wt-64bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="38632443ac0fa54307b3bb3b0f43a103d6bbb749" name="intel-mkl-wt-common-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="9d1df4ada6ed2a2f31ec0332e7ccac22f0df8ae5" name="intel-mkl-wt-tbb-32bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="b6f193a79a7c029b9f488ac1bb8267956c880b5a" name="intel-mkl-wt-tbb-64bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.2" rel="37"/>
+
+</package>
+
+<package pkgid="a582148c968c7d8066b204305b586214f734eaec" name="intel-tbb-wt-32bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.3" rel="37"/>
+
+</package>
+
+<package pkgid="f805d5ee8022fd6b3857cba40fb963e9eba12cba" name="intel-tbb-wt-64bit-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.3" rel="37"/>
+
+</package>
+
+<package pkgid="423a3b192d946f710d2c1a115494f6c8f15f4147" name="intel-tbb-wt-common-meta-windows" arch="noarch">
+    <version epoch="0" ver="2020.0.3" rel="37"/>
+
+</package>
+
+</otherdata>

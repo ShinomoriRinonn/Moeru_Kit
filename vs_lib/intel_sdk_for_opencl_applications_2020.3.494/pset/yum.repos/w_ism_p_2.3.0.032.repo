@@ -1,0 +1,5 @@
+[w_ism_p_2.3.0.032]
+baseurl=${YUM_BASE_URL}/ism/2.3/win/
+name=w_ism_p_2.3.0.032
+enabled=1
+

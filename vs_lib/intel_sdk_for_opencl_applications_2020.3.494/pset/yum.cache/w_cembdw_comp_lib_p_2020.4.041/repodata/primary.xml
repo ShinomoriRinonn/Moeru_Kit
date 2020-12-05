@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://linux.duke.edu/metadata/common" xmlns:suse="http://novell.com/package/metadata/suse/common" xmlns:rpm="http://linux.duke.edu/metadata/rpm" packages="22">
+<package type="rpm">
+  <name>intel-daal-wt-32bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">5c911946fa258e87ed1ef06232fa31f730f9a5fd</checksum>
+  <summary>Intel DAAL (32-bit)</summary>
+  <description>Summary:   Intel DAAL (32-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662138"/>
+  <size package="2462" installed="0" archive="240"/>
+<location href="intel-daal-wt-32bit-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>daal_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-daal-wt-32bit-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2372"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-daal-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ww_daal_core_ia32_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-daal-wt-64bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">0fa9d2aa4e5c3297542927ef6bb46783454860a2</checksum>
+  <summary>Intel DAAL (64-bit)</summary>
+  <description>Summary:   Intel DAAL (64-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662095"/>
+  <size package="2466" installed="0" archive="240"/>
+<location href="intel-daal-wt-64bit-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>daal_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-daal-wt-64bit-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2376"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-daal-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ww_daal_core_intel64_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-daal-wt-common-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">94a7a147e04c09d4e824df45da9f10f46097ac0b</checksum>
+  <summary>Intel DAAL</summary>
+  <description>Summary:   Intel DAAL</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662035"/>
+  <size package="2645" installed="0" archive="240"/>
+<location href="intel-daal-wt-common-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>iss_cnl_hidden</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-daal-wt-common-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2556"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="VISUAL_STUDIO_2017_CONTENT"/>
+      <rpm:entry name="VISUAL_STUDIO_2019_CONTENT"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_daal_core_common_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_daal_doc_common_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_daal_lic_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_daal_common_c_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-icc-wt-32bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="19.1.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">e33738dc392090c07957131bceff560b151a1e5b</checksum>
+  <summary>Intel C++ Compiler (32-bit)</summary>
+  <description>Summary:   Intel C++ Compiler (32-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662089"/>
+  <size package="2722" installed="0" archive="240"/>
+<location href="intel-icc-wt-32bit-meta-windows-19.1.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>icc_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-icc-wt-32bit-meta-windows-19.1.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2632"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-icc-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="19.1.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_openmp_ia32_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-tbb-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ww_cmp_ia32_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_icl_ia32_cross_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_icl_ia32_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_cmp_ia32_cross_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_sl_redist_ia32_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-icc-wt-64bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="19.1.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">908bf3665a141fc69d18dcd2425e243e5d1b338a</checksum>
+  <summary>Intel C++ Compiler (64-bit)</summary>
+  <description>Summary:   Intel C++ Compiler (64-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662148"/>
+  <size package="2741" installed="0" archive="240"/>
+<location href="intel-icc-wt-64bit-meta-windows-19.1.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>icc_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-icc-wt-64bit-meta-windows-19.1.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2652"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="create_symlinks"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.4"/>
+      <rpm:entry name="intel-tbb-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ww_openmp_intel64_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_icx_intel64_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_icl_intel64_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_sl_redist_intel64_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_cmp_intel64_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-icc-wt-common-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="19.1.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">043c611602cbb241862526f5d94381712a136f2c</checksum>
+  <summary>Intel C++ Compiler (Common)</summary>
+  <description>Summary:   Intel C++ Compiler (Common)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662015"/>
+  <size package="2889" installed="0" archive="240"/>
+<location href="intel-icc-wt-common-meta-windows-19.1.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>iss_cnl_hidden</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-icc-wt-common-meta-windows-19.1.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2800"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="VISUAL_STUDIO_2017_CONTENT"/>
+      <rpm:entry name="VISUAL_STUDIO_2019_CONTENT"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_icx_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_icx_archshared_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_wl_icc_archshared_nomcu_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_icl_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_cmp_lib_common_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.4"/>
+      <rpm:entry name="intel_ww_cmp_archshared_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_wl_cmp_archshared_nomcu_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ww_icl_archshared_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-icc-wt-gs-win</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.4" rel="41"/>
+  <checksum type="sha" pkgid="YES">d659e33faf650ff87653eb0bb7e3e5dc09d36990</checksum>
+  <summary>Compiler Getting Started</summary>
+  <description>Summary:   Compiler Getting Started</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602661979"/>
+  <size package="14159" installed="32403" archive="34096"/>
+<location href="intel-icc-wt-gs-win-2020.0.4-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>iss_cnl_hidden</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-icc-wt-gs-win-2020.0.4-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="3048"/>
+    <rpm:provides>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.4" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-ipp-wt-common-32b-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">db3a2d2595982823c871ae9da0c2b52b2544bfaa</checksum>
+  <summary>Intel IPP</summary>
+  <description>Summary:   Intel IPP</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662064"/>
+  <size package="2588" installed="0" archive="240"/>
+<location href="intel-ipp-wt-common-32b-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>iss_cnl_hidden</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-ipp-wt-common-32b-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2500"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_ipp_st_ia32_iss_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_st_ia32_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_core_ia32_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_st_ia32_ps_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-ipp-wt-common-64b-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">e45f24bf6236cafa08b9e2ff3c73305f75252d86</checksum>
+  <summary>Intel IPP</summary>
+  <description>Summary:   Intel IPP</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662125"/>
+  <size package="2600" installed="0" archive="240"/>
+<location href="intel-ipp-wt-common-64b-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>iss_cnl_hidden</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-ipp-wt-common-64b-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2512"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_ipp_st_intel64_iss_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_core_intel64_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ww_ipp_st_intel64_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_st_intel64_ps_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-ipp-wt-common-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">2221836a40515c3a80d52706ea34ebd672e42100</checksum>
+  <summary>Intel IPP</summary>
+  <description>Summary:   Intel IPP</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662073"/>
+  <size package="2650" installed="0" archive="240"/>
+<location href="intel-ipp-wt-common-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>iss_cnl_hidden</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-ipp-wt-common-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2560"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="VISUAL_STUDIO_2017_CONTENT"/>
+      <rpm:entry name="VISUAL_STUDIO_2019_CONTENT"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_ipp_doc_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_st_common_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_core_common_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_st_common_iss_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_examp_syml_ps_iss_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-ipp-wt-mt-32bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">e012485d31405187e761c45ee202b56ad45b3fac</checksum>
+  <summary>Intel IPP multi-threaded libraries (32-bit)</summary>
+  <description>Summary:   Intel IPP multi-threaded libraries (32-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662080"/>
+  <size package="2561" installed="0" archive="240"/>
+<location href="intel-ipp-wt-mt-32bit-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>ipp_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-ipp-wt-mt-32bit-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2472"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-ipp-wt-mt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_ipp_mt_ia32_iss_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ww_ipp_mt_ia32_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-ipp-wt-mt-64bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">4ae0bd625652b6d218f6e7961a97539b890792e6</checksum>
+  <summary>Intel IPP multi-threaded libraries (64-bit)</summary>
+  <description>Summary:   Intel IPP multi-threaded libraries (64-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662057"/>
+  <size package="2569" installed="0" archive="240"/>
+<location href="intel-ipp-wt-mt-64bit-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>ipp_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-ipp-wt-mt-64bit-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2480"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-ipp-wt-mt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_ipp_mt_intel64_iss_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_mt_intel64_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-ipp-wt-st-32bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">22e9fd4ea307ccff6d73f0921734f2ea2704152f</checksum>
+  <summary>Intel IPP single-threaded libraries (32-bit)</summary>
+  <description>Summary:   Intel IPP single-threaded libraries (32-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662049"/>
+  <size package="2614" installed="0" archive="240"/>
+<location href="intel-ipp-wt-st-32bit-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>ipp_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-ipp-wt-st-32bit-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2524"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_ipp_mt_ia32_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_mt_ia32_iss_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-ipp-wt-st-64bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">7fb519c5a2220f8edef456d8d444f8907a61708f</checksum>
+  <summary>Intel IPP single-threaded libraries (64-bit)</summary>
+  <description>Summary:   Intel IPP single-threaded libraries (64-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662005"/>
+  <size package="2622" installed="0" archive="240"/>
+<location href="intel-ipp-wt-st-64bit-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>ipp_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-ipp-wt-st-64bit-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2532"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_ipp_mt_intel64_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_ipp_mt_intel64_iss_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-mkl-wt-32bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.4" rel="41"/>
+  <checksum type="sha" pkgid="YES">146a376e31170103a48a3a9d361914114aafca5b</checksum>
+  <summary>Intel MKL (32-bit)</summary>
+  <description>Summary:   Intel MKL (32-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662041"/>
+  <size package="2454" installed="0" archive="240"/>
+<location href="intel-mkl-wt-32bit-meta-windows-2020.0.4-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>mkl_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-mkl-wt-32bit-meta-windows-2020.0.4-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2364"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.4" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.4"/>
+      <rpm:entry name="intel_ww_mkl_core_ia32_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.4"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-mkl-wt-64bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.4" rel="41"/>
+  <checksum type="sha" pkgid="YES">7482d33535d5181111d10495af3b50d10d90275b</checksum>
+  <summary>Intel MKL (64-bit)</summary>
+  <description>Summary:   Intel MKL (64-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662028"/>
+  <size package="2454" installed="0" archive="240"/>
+<location href="intel-mkl-wt-64bit-meta-windows-2020.0.4-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>mkl_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-mkl-wt-64bit-meta-windows-2020.0.4-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2368"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.4" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.4"/>
+      <rpm:entry name="intel_ww_mkl_core_intel64_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.4"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-mkl-wt-common-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.4" rel="41"/>
+  <checksum type="sha" pkgid="YES">5df5b24de605b51aa3a4a487b55293831fd90880</checksum>
+  <summary>Intel MKL</summary>
+  <description>Summary:   Intel MKL</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602661997"/>
+  <size package="2684" installed="0" archive="240"/>
+<location href="intel-mkl-wt-common-meta-windows-2020.0.4-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>iss_cnl_hidden</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-mkl-wt-common-meta-windows-2020.0.4-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2596"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="VISUAL_STUDIO_2017_CONTENT"/>
+      <rpm:entry name="VISUAL_STUDIO_2019_CONTENT"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.4" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_mkl_c_core_ps_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.4"/>
+      <rpm:entry name="intel_ww_mkl_doc_iss_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.4"/>
+      <rpm:entry name="intel_ww_mkl_doc_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.4"/>
+      <rpm:entry name="intel_ww_mkl_core_common_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.4"/>
+      <rpm:entry name="intel_ww_mkl_core_common_ps_iss_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.4"/>
+      <rpm:entry name="intel_ww_mkl_c_core_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.4"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-mkl-wt-tbb-32bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.4" rel="41"/>
+  <checksum type="sha" pkgid="YES">4de6afb4b0a968e715ee08ed962684de25d98304</checksum>
+  <summary>Intel TBB threading support (32-bit)</summary>
+  <description>Summary:   Intel TBB threading support (32-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662116"/>
+  <size package="2500" installed="0" archive="240"/>
+<location href="intel-mkl-wt-tbb-32bit-meta-windows-2020.0.4-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>mkl_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-mkl-wt-tbb-32bit-meta-windows-2020.0.4-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2412"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-mkl-wt-tbb-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.4" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_mkl_tbb_ia32_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.4"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.4"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-mkl-wt-tbb-64bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.4" rel="41"/>
+  <checksum type="sha" pkgid="YES">34da2f3de7b8b464de4401c03e76fec803e2c67e</checksum>
+  <summary>Intel TBB threading support (64-bit)</summary>
+  <description>Summary:   Intel TBB threading support (64-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662109"/>
+  <size package="2505" installed="0" archive="240"/>
+<location href="intel-mkl-wt-tbb-64bit-meta-windows-2020.0.4-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>mkl_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-mkl-wt-tbb-64bit-meta-windows-2020.0.4-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2416"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-mkl-wt-tbb-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.4" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_mkl_tbb_intel64_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.4"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.4"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-tbb-wt-32bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">b61535d3a5c995abafe2193eeb03c6d2a013d5ea</checksum>
+  <summary>Intel TBB (32-bit)</summary>
+  <description>Summary:   Intel TBB (32-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662132"/>
+  <size package="2610" installed="0" archive="240"/>
+<location href="intel-tbb-wt-32bit-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>tbb_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-tbb-wt-32bit-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2520"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-tbb-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_tbb_libs_studio_ia32_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_tbb_libs_standalone_ia32_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_tbb_libs_ia32_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_tbb_core_ia32_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-tbb-wt-64bit-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">64b79809fb70838dde6d59addee3219195267cd6</checksum>
+  <summary>Intel TBB (64-bit)</summary>
+  <description>Summary:   Intel TBB (64-bit)</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662021"/>
+  <size package="2621" installed="0" archive="240"/>
+<location href="intel-tbb-wt-64bit-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>tbb_windows</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-tbb-wt-64bit-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2532"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-tbb-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_tbb_libs_intel64_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_tbb_libs_standalone_intel64_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ww_tbb_core_intel64_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_tbb_libs_studio_intel64_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-tbb-wt-common-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0.3" rel="41"/>
+  <checksum type="sha" pkgid="YES">e7b192d5aec850f5a0423f46b866b8f388d7f73d</checksum>
+  <summary>Intel TBB</summary>
+  <description>Summary:   Intel TBB</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602666884" build="1602662102"/>
+  <size package="2670" installed="0" archive="240"/>
+<location href="intel-tbb-wt-common-meta-windows-2020.0.3-41.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>iss_cnl_hidden</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-tbb-wt-common-meta-windows-2020.0.3-41.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2580"/>
+    <rpm:provides>
+      <rpm:entry name="installonlypkg"/>
+      <rpm:entry name="VISUAL_STUDIO_2017_CONTENT"/>
+      <rpm:entry name="VISUAL_STUDIO_2019_CONTENT"/>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3" rel="41"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ww_tbb_core_common_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_pstl_doc_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_tbb_doc_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_tbb_lic_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_pstl_core_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+      <rpm:entry name="intel_ww_tbb_lic_common_p_20.0_msi" flags="EQ" epoch="0" ver="20.0.3"/>
+    </rpm:requires>
+  </format>
+</package>
+</metadata>

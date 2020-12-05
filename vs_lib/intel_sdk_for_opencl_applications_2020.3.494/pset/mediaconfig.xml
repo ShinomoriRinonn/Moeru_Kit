@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaConfig>
+  <Name>Intel® System Studio 2020 Update 3 Composer Edition for Windows*</Name>
+  <Description/>
+  <GUID>1599818634478</GUID>
+  <Env/>
+  <PRODUCT_NAME>Intel® System Studio 2020 Update 3 Composer Edition for Windows*</PRODUCT_NAME>
+  <PRODUCT_GROUP>Intel System Studio 2020 for Windows</PRODUCT_GROUP>
+  <PSET_INSTALL_SUBDIR>\system_studio_2020</PSET_INSTALL_SUBDIR>
+  <PSET_DEFAULT_INSTALL_DIR_ROOT>C:\Program Files (x86)\IntelSWTools</PSET_DEFAULT_INSTALL_DIR_ROOT>
+  <PSET_DEFAULT_INSTALL_DIR_NONROOT>C:\Program Files (x86)\IntelSWTools</PSET_DEFAULT_INSTALL_DIR_NONROOT>
+  <PSET_DOWNLOAD_SUBDIR>system_studio_2020</PSET_DOWNLOAD_SUBDIR>
+  <SUITE_FAMILY>${DEFAULT_SUITE_FAMILY}</SUITE_FAMILY>
+  <DYNAMIC_INSTALLER_URL>${DEFAULT_WC_LINK}</DYNAMIC_INSTALLER_URL>
+  <PSET_SUPPORTED_HOST_OSES>${DEFAULT_SUPPORTED_HOST_OSES}</PSET_SUPPORTED_HOST_OSES>
+  <VS_INTEGRATION_ENABLED>${DEFAULT_VS_INTEGRATION_ENABLED}</VS_INTEGRATION_ENABLED>
+  <PSET_MERGE_PRODUCTS>${DEFAULT_MERGE_PRODUCTS}</PSET_MERGE_PRODUCTS>
+  <welcome_desc/>
+  <WELCOME_FILE_GUI>${PACKAGE_DIR}/pset/welcome.html</WELCOME_FILE_GUI>
+  <WELCOME_PAGE_URL>${PSET_INSTALL_DIR}${PSET_INSTALL_SUBDIR}\documentation_2020\en\system_studio_2020\getting_started_iss_build.htm</WELCOME_PAGE_URL>
+  <PSET_USE_SHARED_DB>${DEFAULT_PSET_USE_SHARED_DB}</PSET_USE_SHARED_DB>
+  <PSET_IGNORE_MARKER_GUID_FILE>${DEFAULT_PSET_IGNORE_MARKER_GUID_FILE}</PSET_IGNORE_MARKER_GUID_FILE>
+  <PSET_TSD_YUM_SHOW_RELEASE_VERSION>${DEFAULT_PSET_TSD_YUM_SHOW_RELEASE_VERSION}</PSET_TSD_YUM_SHOW_RELEASE_VERSION>
+  <PSET_BASELINE_RPM_CODE>${DEFAULT_PSET_BASELINE_RPM_CODE}</PSET_BASELINE_RPM_CODE>
+  <PSET_BASELINE_RPM_VERSION>${DEFAULT_PSET_BASELINE_RPM_VERSION}</PSET_BASELINE_RPM_VERSION>
+  <PSET_BASELINE_RPM_RELEASE>${DEFAULT_PSET_BASELINE_RPM_RELEASE}</PSET_BASELINE_RPM_RELEASE>
+  <CUSTOM_COEX_RPM_NAME_PATTERN>${DEFAULT_CUSTOM_COEX_RPM_NAME_PATTERN}</CUSTOM_COEX_RPM_NAME_PATTERN>
+  <PSET_SKIP_LAUNCH_SHORTCUT_ON_COMPLETE>yes</PSET_SKIP_LAUNCH_SHORTCUT_ON_COMPLETE>
+  <SKIP_ECLIPSE_INTEGRATION_HELP_LINK></SKIP_ECLIPSE_INTEGRATION_HELP_LINK>
+  <ECLIPSE_INTEGRATION_CUSTOMIZATION_ENABLED>no</ECLIPSE_INTEGRATION_CUSTOMIZATION_ENABLED>
+  <Product platform="IA32;INTEL64" id="1">
+    <Name>Installer files</Name>
+    <Description/>
+    <Layers>
+      <arp>
+        <Publisher>Intel Corporation</Publisher>
+        <HelpLink>http://www.intel.com/software</HelpLink>
+        <URLInfoAbout>http://www.intel.com</URLInfoAbout>
+        <URLUpdateInfo>https://registrationcenter.intel.com</URLUpdateInfo>
+      </arp>
+      <yum>
+        <YUM_BASE_URL>http://swm.qa.intel.com.s3.amazonaws.com</YUM_BASE_URL>
+        <NDA_API_URL>https://dynamicinstaller-api-pre.intel.com</NDA_API_URL>
+        <NDA_PRODUCT_ID>${DEFAULT_NDA_PRODUCT_ID}</NDA_PRODUCT_ID>
+        <NDA_PRODUCT_VERSION>${DEFAULT_NDA_PRODUCT_VERSION}</NDA_PRODUCT_VERSION>
+      </yum>
+      <phonehome>
+        <HideActivateButton>0</HideActivateButton>
+        <HideOnLicenseTab>0</HideOnLicenseTab>
+      </phonehome>
+    </Layers>
+    <Component platform="IA32;INTEL64" invisible="1" id="1" depend="" mandatory="1" core="1">
+      <Name>Installer cache</Name>
+      <Description/>
+      <Selected>1</Selected>
+      <Layers>
+        <phonehome>
+          <HideActivateButton>0</HideActivateButton>
+          <HideOnLicenseTab>0</HideOnLicenseTab>
+        </phonehome>
+      </Layers>
+      <RPMProductFamily>intel-installer</RPMProductFamily>
+      <RPMProductArch>noarch</RPMProductArch>
+      <Type>tgz</Type>
+      <RPMFileDir>${PACKAGE_DIR}/pset</RPMFileDir>
+      <RPMProductCode>intel-installer-3.5.3.106.tgz</RPMProductCode>
+      <Version>3.5</Version>
+      <RPMProductRelease>3.106</RPMProductRelease>
+      <NONRPMProductCode>intel-installer-3.5.3.106.tgz</NONRPMProductCode>
+      <Abbr>intel-installer__noarch</Abbr>
+      <Data>1</Data>
+    </Component>
+  </Product>
+  <PACKAGE_ID>w_cembdw_composer_p_2020.3.1328</PACKAGE_ID>
+</MediaConfig>

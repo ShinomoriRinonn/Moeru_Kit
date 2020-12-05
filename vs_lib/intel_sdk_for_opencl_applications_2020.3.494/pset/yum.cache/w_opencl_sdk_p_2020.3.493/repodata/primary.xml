@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://linux.duke.edu/metadata/common" xmlns:suse="http://novell.com/package/metadata/suse/common" xmlns:rpm="http://linux.duke.edu/metadata/rpm" packages="5">
+<package type="rpm">
+  <name>intel-F_OpenCL_PCB-msi</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="7.0.0" rel="4443"/>
+  <checksum type="sha" pkgid="YES">970507525027eb8b6e9a9e7a9a8e3363c7074799</checksum>
+  <summary>Intel Code Builder for OpenCL(TM) API 2020</summary>
+  <description>Intel Code Builder for OpenCL(TM) API 2020</description>
+  <packager></packager>
+  <url>https://www.intel.com</url>
+  <time file="1601023052" build="1600177222"/>
+  <size package="37270907" installed="41218893" archive="41219832"/>
+<location href="intel-F_OpenCL_PCB-msi-7.0.0-4443.noarch.rpm"/>
+  <format>
+    <rpm:license>Proprietary</rpm:license>
+    <rpm:vendor/>
+    <rpm:group>opencl_tools</rpm:group>
+    <rpm:buildhost>nnvhct-ci-win06.ccr.corp.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-F_OpenCL_PCB-msi-7.0.0-4443.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="5000" end="6793"/>
+    <rpm:provides>
+      <rpm:entry name="MSI_INSIDE"/>
+      <rpm:entry name="intel-F_OpenCL_PCB-msi" flags="EQ" epoch="0" ver="7.0.0" rel="4443"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel-opencl_cpu_runtime_component-msi"/>
+    </rpm:requires>
+    <file>/etc/msi-config/F_OpenCL_PCB-7.0.0.4443.xml</file>
+    <file type="dir">/etc/msi-config</file>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-VisualStudioTools2017_vs15-vsix</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="7.0" rel="0"/>
+  <checksum type="sha" pkgid="YES">f74a98b7f1d5fee89058434d8b25d94031e5d641</checksum>
+  <summary>VisualStudioTools2017_vs15</summary>
+  <description></description>
+  <packager></packager>
+  <url>https://www.intel.com</url>
+  <time file="1601023052" build="1600177236"/>
+  <size package="63797" installed="82941" archive="83879"/>
+<location href="intel-VisualStudioTools2017_vs15-vsix-7.0-0.noarch.rpm"/>
+  <format>
+    <rpm:license>Proprietary</rpm:license>
+    <rpm:vendor/>
+    <rpm:group>opencl_tools_vs</rpm:group>
+    <rpm:buildhost>nnvhct-ci-win06.ccr.corp.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-VisualStudioTools2017_vs15-vsix-7.0-0.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="5000" end="6770"/>
+    <rpm:provides>
+      <rpm:entry name="NEED_VS2017_INTEGRATION"/>
+      <rpm:entry name="intel-VisualStudioTools2017_vs15-vsix" flags="EQ" epoch="0" ver="7.0" rel="0"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel-F_OpenCL_PCB-msi"/>
+    </rpm:requires>
+    <file>/etc/vsix-config/VisualStudioTools2017_vs15-7.0.xml</file>
+    <file type="dir">/etc/vsix-config</file>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-VisualStudioTools2019_vs16-vsix</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="7.0" rel="0"/>
+  <checksum type="sha" pkgid="YES">2ac10e3b54eaede3c2128f131c42d1151c2029ea</checksum>
+  <summary>VisualStudioTools2019_vs16</summary>
+  <description></description>
+  <packager></packager>
+  <url>https://www.intel.com</url>
+  <time file="1601023052" build="1600177237"/>
+  <size package="63783" installed="83149" archive="84085"/>
+<location href="intel-VisualStudioTools2019_vs16-vsix-7.0-0.noarch.rpm"/>
+  <format>
+    <rpm:license>Proprietary</rpm:license>
+    <rpm:vendor/>
+    <rpm:group>opencl_tools_vs</rpm:group>
+    <rpm:buildhost>nnvhct-ci-win06.ccr.corp.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-VisualStudioTools2019_vs16-vsix-7.0-0.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="5000" end="6770"/>
+    <rpm:provides>
+      <rpm:entry name="NEED_VS2019_INTEGRATION"/>
+      <rpm:entry name="intel-VisualStudioTools2019_vs16-vsix" flags="EQ" epoch="0" ver="7.0" rel="0"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel-F_OpenCL_PCB-msi"/>
+    </rpm:requires>
+    <file>/etc/vsix-config/VisualStudioTools2019_vs16-7.0.xml</file>
+    <file type="dir">/etc/vsix-config</file>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-icldbgeng_vs15-vsix</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="7.0" rel="0"/>
+  <checksum type="sha" pkgid="YES">50806b48a72c1144bd16192a9e5bc20fb7c7fc0f</checksum>
+  <summary>icldbgeng_vs15</summary>
+  <description></description>
+  <packager></packager>
+  <url>https://www.intel.com</url>
+  <time file="1601023052" build="1600177234"/>
+  <size package="324021" installed="320080" archive="320994"/>
+<location href="intel-icldbgeng_vs15-vsix-7.0-0.noarch.rpm"/>
+  <format>
+    <rpm:license>Proprietary</rpm:license>
+    <rpm:vendor/>
+    <rpm:group>opencl_tools_vs</rpm:group>
+    <rpm:buildhost>nnvhct-ci-win06.ccr.corp.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-icldbgeng_vs15-vsix-7.0-0.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="5000" end="6698"/>
+    <rpm:provides>
+      <rpm:entry name="NEED_VS2017_INTEGRATION"/>
+      <rpm:entry name="intel-icldbgeng_vs15-vsix" flags="EQ" epoch="0" ver="7.0" rel="0"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel-F_OpenCL_PCB-msi"/>
+    </rpm:requires>
+    <file>/etc/vsix-config/icldbgeng_vs15-7.0.xml</file>
+    <file type="dir">/etc/vsix-config</file>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-opencl_cpu_runtime_component-msi</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="18.1.016" rel="0"/>
+  <checksum type="sha" pkgid="YES">6b0e17c95163518c9d173900d26feb84102e11a7</checksum>
+  <summary>Intel CPU Runtime for OpenCL(TM) Applications 18.1</summary>
+  <description>Intel CPU Runtime for OpenCL(TM) Applications 18.1</description>
+  <packager></packager>
+  <url>https://www.intel.com</url>
+  <time file="1601023052" build="1600177229"/>
+  <size package="62205924" installed="63393792" archive="63394456"/>
+<location href="intel-opencl_cpu_runtime_component-msi-18.1.016-0.noarch.rpm"/>
+  <format>
+    <rpm:license>Proprietary</rpm:license>
+    <rpm:vendor/>
+    <rpm:group>opencl_tools</rpm:group>
+    <rpm:buildhost>nnvhct-ci-win06.ccr.corp.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-opencl_cpu_runtime_component-msi-18.1.016-0.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="5000" end="6626"/>
+    <rpm:provides>
+      <rpm:entry name="intel-opencl_cpu_runtime_component-msi" flags="EQ" epoch="0" ver="18.1.016" rel="0"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+  </format>
+</package>
+</metadata>

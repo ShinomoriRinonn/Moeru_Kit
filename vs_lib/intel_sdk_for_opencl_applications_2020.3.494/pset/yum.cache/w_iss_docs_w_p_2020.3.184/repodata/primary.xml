@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://linux.duke.edu/metadata/common" xmlns:suse="http://novell.com/package/metadata/suse/common" xmlns:rpm="http://linux.duke.edu/metadata/rpm" packages="1">
+<package type="rpm">
+  <name>intel-iss-gsg-win-win</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.3" rel="184"/>
+  <checksum type="sha" pkgid="YES">0706a665db81368c0e9675dfe2996a7bc498a5e3</checksum>
+  <summary>System Studio Documentation for Windows* Target</summary>
+  <description>Summary:   System Studio Documentation for Windows* Target</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1601359118" build="1601359109"/>
+  <size package="949643" installed="1077765" archive="1085196"/>
+<location href="intel-iss-gsg-win-win-2020.3-184.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2018-2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-iss-gsg-win-win-2020.3-184.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="6427"/>
+    <rpm:provides>
+      <rpm:entry name="intel-iss-gsg-win-win" flags="EQ" epoch="0" ver="2020.3" rel="184"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+  </format>
+</package>
+</metadata>

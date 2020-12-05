@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otherdata xmlns="http://linux.duke.edu/metadata/other" packages="4">
+<package pkgid="0b70182954a62b859b9dd3cd31677ceb630d2473" name="intel-iss-ism-windows" arch="noarch">
+    <version epoch="0" ver="2020.0" rel="528"/>
+
+</package>
+
+<package pkgid="2668ec3e93bad9eb585e820916312b733e0441e7" name="intel-iss-ism-windows" arch="noarch">
+    <version epoch="0" ver="2020.1" rel="806"/>
+
+<changelog author="ISS 2020 Update 1" date="1574661600">See the &lt;a href="https://software.intel.com/en-us/articles/intel-system-studio-release-notes-whats-new"&gt;Intel System Studio Release Notes&lt;/a&gt; for a complete list of updates and new features.</changelog>
+
+</package>
+
+<package pkgid="cd68eb7ac1bcab5e37aa64fc2ed6352833370832" name="intel-iss-ism-windows" arch="noarch">
+    <version epoch="0" ver="2020.2" rel="1034"/>
+
+<changelog author="ISS 2020 Update 1" date="1574661600">See the &lt;a href="https://software.intel.com/en-us/articles/intel-system-studio-release-notes-whats-new"&gt;Intel System Studio Release Notes&lt;/a&gt; for a complete list of updates and new features.</changelog>
+
+</package>
+
+<package pkgid="75afb7bb577662b0ae0ef549f7841a28739e685e" name="intel-iss-ism-windows" arch="noarch">
+    <version epoch="0" ver="2020.3" rel="1328"/>
+
+<changelog author="ISS 2020 Update 1" date="1574661600">See the &lt;a href="https://software.intel.com/en-us/articles/intel-system-studio-release-notes-whats-new"&gt;Intel System Studio Release Notes&lt;/a&gt; for a complete list of updates and new features.</changelog>
+
+</package>
+
+</otherdata>

@@ -1,0 +1,32 @@
+<comps>
+	<group>
+		<id>opencl_tools</id>
+		<default>false</default>
+		<uservisible>true</uservisible>
+		<display_order>1</display_order>
+		<name>OpenCL(TM) Tools</name>
+		<description>OpenCL(TM) Tools</description>
+		<packagelist>
+			<packagereq type="default">intel-F_OpenCL_PCB-msi</packagereq></packagelist>
+	</group>
+	<group>
+		<id>opencl_tools_vs</id>
+		<default>false</default>
+		<uservisible>false</uservisible>
+		<display_order>2</display_order>
+		<name>Microsoft Visual Studio* software</name>
+		<description>Microsoft Visual Studio* software</description>
+		<packagelist>
+			<packagereq type="conditional">intel-icldbgeng_vs15-vsix</packagereq><packagereq type="conditional">intel-VisualStudioTools2017_vs15-vsix</packagereq><packagereq type="conditional">intel-VisualStudioTools2019_vs16-vsix</packagereq></packagelist>
+	</group>
+	<group>
+		<id>opencl_tools_hidden</id>
+		<default>false</default>
+		<uservisible>false</uservisible>
+		<display_order>3</display_order>
+		<name>OpenCL(TM) Tools (Hidden)</name>
+		<description>OpenCL(TM) Tools (Hidden)</description>
+		<packagelist>
+			<packagereq type="default">intel-opencl_cpu_runtime_component-msi</packagereq></packagelist>
+	</group>
+</comps>

@@ -1,0 +1,5 @@
+[w_cembdw_comp_lib_p_2020.1.034]
+baseurl=${YUM_BASE_URL}/iss_comp_lib/2020p1/win_win/
+name=w_cembdw_comp_lib_p_2020.1.034
+enabled=1
+

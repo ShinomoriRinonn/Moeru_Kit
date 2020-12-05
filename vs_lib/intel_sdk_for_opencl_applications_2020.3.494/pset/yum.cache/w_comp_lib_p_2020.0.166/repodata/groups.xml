@@ -1,0 +1,24 @@
+<comps>  
+  <group>
+   <id>compilers_and_libraries_hidden</id>
+   <default>false</default>
+   <uservisible>false</uservisible>
+   <display_order>10</display_order>
+   <name>compilers_and_libraries_hidden</name>
+   <description>compilers_and_libraries_hidden</description>
+    <packagelist>
+     <packagereq type="conditional">intel_ide_c_common_libopt_vs2017_p_19.1_msi</packagereq>
+     <packagereq type="conditional">intel_ide_c_common_iss_vs2017_p_19.1_msi</packagereq>
+     <packagereq type="conditional">intel_ide_c_common_vs2017_p_19.1_msi</packagereq>
+     <packagereq type="conditional">intel_ide_c_unique_vs2017_p_19.1_msi</packagereq>
+     <packagereq type="conditional">intel_ide_common_vs2017_p_19.1_msi</packagereq>
+     <packagereq type="conditional">intel_ide_utilities_vs2017_p_19.1_msi</packagereq>
+     <packagereq type="conditional">intel_ide_c_common_libopt_vs2019_p_19.1_msi</packagereq>
+     <packagereq type="conditional">intel_ide_c_common_iss_vs2019_p_19.1_msi</packagereq>
+     <packagereq type="conditional">intel_ide_c_common_vs2019_p_19.1_msi</packagereq>
+     <packagereq type="conditional">intel_ide_c_unique_vs2019_p_19.1_msi</packagereq>
+     <packagereq type="conditional">intel_ide_common_vs2019_p_19.1_msi</packagereq>
+     <packagereq type="conditional">intel_ide_utilities_vs2019_p_19.1_msi</packagereq>
+    </packagelist>
+  </group>
+</comps>

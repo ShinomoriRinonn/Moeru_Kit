@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<comps>
+  <group>
+    <id>iss_cnl_hidden</id>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <display_order>1</display_order>
+    <name>Intel Compilers and Libraries for Windows* (internal)</name>
+    <description>Intel Compilers and Libraries for Windows* (internal)</description>
+    <packagelist>
+      <packagereq type="optional">intel-icc-wt-gs-win</packagereq>
+      <packagereq type="optional">intel_ww_mkl_doc_iss_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_mkl_doc_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_mkl_core_common_ps_iss_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_mkl_core_common_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_mkl_c_core_ps_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_mkl_c_core_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel-mkl-wt-common-meta-windows</packagereq>
+      <packagereq type="optional">intel_ww_ipp_mt_intel64_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_mt_intel64_iss_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_wl_icc_archshared_nomcu_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_icl_archshared_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_cmp_archshared_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_cmp_archshared_vars_icx_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_wl_cmp_archshared_nomcu_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_icl_archshared_vars_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_icl_archshared_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_cmp_lib_common_p_20.0_msi</packagereq>
+      <packagereq type="conditional">intel_ww_cmp_archshared_vars_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel-icc-wt-common-meta-windows</packagereq>
+      <packagereq type="optional">intel_ww_tbb_libs_intel64_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_tbb_libs_studio_intel64_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_tbb_libs_standalone_intel64_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_tbb_core_intel64_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_mkl_core_intel64_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_daal_lic_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_daal_common_c_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_daal_core_common_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_daal_doc_common_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_daal_doc_iss_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel-daal-wt-common-meta-windows</packagereq>
+      <packagereq type="optional">intel_ww_mkl_core_ia32_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_mt_ia32_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_mt_ia32_iss_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_mt_intel64_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_mt_intel64_iss_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_st_ia32_ps_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_st_ia32_iss_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_st_ia32_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_core_ia32_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel-ipp-wt-common-32b-meta-windows</packagereq>
+      <packagereq type="optional">intel_ww_ipp_doc_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_st_common_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_st_common_iss_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_examp_syml_ps_iss_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_core_common_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel-ipp-wt-common-meta-windows</packagereq>
+      <packagereq type="optional">intel_ww_ipp_mt_ia32_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_mt_ia32_iss_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_icl_ia32_cross_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_sl_redist_ia32_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_cmp_ia32_cross_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_icl_ia32_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_openmp_ia32_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_cmp_ia32_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_daal_core_intel64_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_tbb_doc_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_pstl_doc_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_pstl_core_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_tbb_core_common_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_tbb_lic_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel-tbb-wt-common-meta-windows</packagereq>
+      <packagereq type="optional">intel_ww_mkl_tbb_intel64_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_mkl_tbb_ia32_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_st_intel64_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_st_intel64_iss_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_st_intel64_ps_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_ipp_core_intel64_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel-ipp-wt-common-64b-meta-windows</packagereq>
+      <packagereq type="optional">intel_ww_tbb_libs_standalone_ia32_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_tbb_libs_ia32_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_tbb_libs_studio_ia32_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_tbb_core_ia32_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_daal_core_ia32_p_20.0_msi</packagereq>
+      <packagereq type="optional">intel_ww_cmp_intel64_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_openmp_intel64_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_sl_redist_intel64_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_icx_intel64_p_19.1_msi</packagereq>
+      <packagereq type="optional">intel_ww_icl_intel64_p_19.1_msi</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>ipp_windows</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1</display_order>
+    <name>Intel Integrated Performance Primitives</name>
+    <description>Intel Integrated Performance Primitives</description>
+    <packagelist>
+      <packagereq type="default">intel-ipp-wt-st-64bit-meta-windows</packagereq>
+      <packagereq type="default">intel-ipp-wt-st-32bit-meta-windows</packagereq>
+      <packagereq type="optional">intel-ipp-wt-mt-64bit-meta-windows</packagereq>
+      <packagereq type="optional">intel-ipp-wt-mt-32bit-meta-windows</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>tbb_windows</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1</display_order>
+    <name>Intel Threading Building Blocks</name>
+    <description>Intel Threading Building Blocks</description>
+    <packagelist>
+      <packagereq type="default">intel-tbb-wt-64bit-meta-windows</packagereq>
+      <packagereq type="default">intel-tbb-wt-32bit-meta-windows</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>mkl_windows</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1</display_order>
+    <name>Intel Math Kernel Library</name>
+    <description>Intel Math Kernel Library</description>
+    <packagelist>
+      <packagereq type="default">intel-mkl-wt-64bit-meta-windows</packagereq>
+      <packagereq type="default">intel-mkl-wt-32bit-meta-windows</packagereq>
+      <packagereq type="default">intel-mkl-wt-tbb-64bit-meta-windows</packagereq>
+      <packagereq type="default">intel-mkl-wt-tbb-32bit-meta-windows</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>icc_windows</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1</display_order>
+    <name>Intel C++ Compiler</name>
+    <description>Intel C++ Compiler</description>
+    <packagelist>
+      <packagereq type="default">intel-icc-wt-32bit-meta-windows</packagereq>
+      <packagereq type="default">intel-icc-wt-64bit-meta-windows</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>daal_windows</id>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <display_order>1</display_order>
+    <name>Intel Data Analytics Acceleration Library</name>
+    <description>Intel Data Analytics Acceleration Library</description>
+    <packagelist>
+      <packagereq type="default">intel-daal-wt-64bit-meta-windows</packagereq>
+      <packagereq type="default">intel-daal-wt-32bit-meta-windows</packagereq>
+    </packagelist>
+  </group>
+</comps>

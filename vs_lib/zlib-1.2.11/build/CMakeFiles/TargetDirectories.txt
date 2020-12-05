@@ -1,0 +1,8 @@
+J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/build/CMakeFiles/zlib.dir
+J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/build/CMakeFiles/zlibstatic.dir
+J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/build/CMakeFiles/example.dir
+J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/build/CMakeFiles/minigzip.dir
+J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/build/CMakeFiles/INSTALL.dir
+J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/build/CMakeFiles/RUN_TESTS.dir
+J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/build/CMakeFiles/ALL_BUILD.dir
+J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/build/CMakeFiles/ZERO_CHECK.dir

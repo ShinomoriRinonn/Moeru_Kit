@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://linux.duke.edu/metadata/common" xmlns:suse="http://novell.com/package/metadata/suse/common" xmlns:rpm="http://linux.duke.edu/metadata/rpm" packages="7">
+<package type="rpm">
+  <name>intel-cembdw-composer-baseline-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0" rel="528"/>
+  <checksum type="sha" pkgid="YES">d5a446e8f7ca76a7975a68a61b0a49e79f61aadb</checksum>
+  <summary>Intel® System Studio 2020 Composer Edition for Windows*</summary>
+  <description>Summary:   Intel® System Studio 2020 Composer Edition for Windows*</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1575532972" build="1575272849"/>
+  <size package="68027" installed="243276" archive="244300"/>
+<location href="intel-cembdw-composer-baseline-meta-windows-2020.0-528.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2019 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-cembdw-composer-baseline-meta-windows-2020.0-528.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="5269"/>
+    <rpm:provides>
+      <rpm:entry name="FlexLM[Comp-CW&amp;Comp-OpenMP&amp;Comp-PointerChecker&amp;MKernW&amp;PerfPrimW&amp;ThreadBB]"/>
+      <rpm:entry name="ProductID[3073]"/>
+      <rpm:entry name="MediaID[6K5]"/>
+      <rpm:entry name="intel-cembdw-composer-baseline-meta-windows" flags="EQ" epoch="0" ver="2020.0" rel="528"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ide_c_unique_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-icc-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_c_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-cptrg-msi" flags="EQ" epoch="0" ver="1.1.61676"/>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ism-windows" flags="EQ" epoch="0" ver="2.3"/>
+      <rpm:entry name="intel_ide_c_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-gt_target-msi" flags="EQ" epoch="0" ver="1.1.61676"/>
+      <rpm:entry name="intel-ipp-wt-mt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-F_OpenCL_PCB-msi" flags="EQ" epoch="0" ver="7.0.0"/>
+      <rpm:entry name="intel-VisualStudioTools2019_vs16-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-daal-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-mkl-wt-tbb-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-opencl_cpu_runtime_cmp-msi" flags="EQ" epoch="0" ver="18.1.016"/>
+      <rpm:entry name="intel-tbb-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_c_unique_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-Intel.MIDebugPackage_vs15-vsix" flags="EQ" epoch="0" ver="1.1.11"/>
+      <rpm:entry name="intel-icldbgeng_vs15-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel-Intel.IntelGfxDebug_vs15-vsix" flags="EQ" epoch="0" ver="1.1.11"/>
+      <rpm:entry name="intel-mkl-wt-tbb-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-iss-ism-windows" flags="EQ" epoch="0" ver="2020.0"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-tbb-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-iss-icc-samples" flags="EQ" epoch="0" ver="2020.0"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_utilities_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-mt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-VisualStudioTools2017_vs15-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel-installer" flags="EQ" epoch="0" ver="2020.0"/>
+      <rpm:entry name="intel_ide_utilities_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-Intel.IntelGfxDebug_vs16-vsix" flags="EQ" epoch="0" ver="1.1.11"/>
+      <rpm:entry name="intel-Intel.MIDebugPackage_vs16-vsix" flags="EQ" epoch="0" ver="1.1.11"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-daal-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-gt_host-msi" flags="EQ" epoch="0" ver="1.1.61676"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-iss-gsg-win-win" flags="EQ" epoch="0" ver="2020.0"/>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-cembdw-composer-baseline-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.1" rel="806"/>
+  <checksum type="sha" pkgid="YES">8fffba9a900c08f28a44b0781d6fd2477a0f3574</checksum>
+  <summary>Intel® System Studio 2020 Update 1 Composer Edition for Windows*</summary>
+  <description>Summary:   Intel® System Studio 2020 Update 1 Composer Edition for Windows*</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1585920765" build="1585658561"/>
+  <size package="69704" installed="242815" archive="243840"/>
+<location href="intel-cembdw-composer-baseline-meta-windows-2020.1-806.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-cembdw-composer-baseline-meta-windows-2020.1-806.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="6925"/>
+    <rpm:provides>
+      <rpm:entry name="FlexLM[Comp-CW&amp;Comp-OpenMP&amp;Comp-PointerChecker&amp;MKernW&amp;PerfPrimW&amp;ThreadBB]"/>
+      <rpm:entry name="ProductID[3073]"/>
+      <rpm:entry name="MediaID[6K5]"/>
+      <rpm:entry name="intel-cembdw-composer-baseline-meta-windows" flags="EQ" epoch="0" ver="2020.1" rel="806"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ide_c_unique_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_c_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-icc-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_c_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-daal-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_utilities_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-iss-icc-samples" flags="EQ" epoch="0" ver="2020.1"/>
+      <rpm:entry name="intel-ism-windows" flags="EQ" epoch="0" ver="2.3"/>
+      <rpm:entry name="intel_ide_c_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-iss-ism-windows" flags="EQ" epoch="0" ver="2020.1"/>
+      <rpm:entry name="intel_ide_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-F_OpenCL_PCB-msi" flags="EQ" epoch="0" ver="7.0.0"/>
+      <rpm:entry name="intel-daal-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-ipp-wt-mt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_utilities_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-daal-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-mt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-opencl_cpu_runtime_component-msi" flags="EQ" epoch="0" ver="18.1.016"/>
+      <rpm:entry name="intel-mkl-wt-tbb-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-mkl-wt-tbb-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-mkl-wt-tbb-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-tbb-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_c_unique_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-icldbgeng_vs15-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-icc-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel_ide_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-tbb-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-tbb-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-tbb-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_utilities_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-mt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-VisualStudioTools2017_vs15-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel-VisualStudioTools2019_vs16-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel_ide_utilities_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-installer" flags="EQ" epoch="0" ver="2020.1"/>
+      <rpm:entry name="intel_ide_c_unique_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-daal-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel_ide_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-iss-gsg-win-win" flags="EQ" epoch="0" ver="2020.1"/>
+      <rpm:entry name="intel-mkl-wt-tbb-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-ipp-wt-mt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_unique_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-cembdw-composer-baseline-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.2" rel="1034"/>
+  <checksum type="sha" pkgid="YES">95c05917f2c8977b82f2e540058e2bd691f5fd41</checksum>
+  <summary>Intel® System Studio 2020 Update 2 Composer Edition for Windows*</summary>
+  <description>Summary:   Intel® System Studio 2020 Update 2 Composer Edition for Windows*</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1594396495" build="1594016783"/>
+  <size package="71367" installed="242816" archive="243840"/>
+<location href="intel-cembdw-composer-baseline-meta-windows-2020.2-1034.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-cembdw-composer-baseline-meta-windows-2020.2-1034.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="8585"/>
+    <rpm:provides>
+      <rpm:entry name="FlexLM[Comp-CW&amp;Comp-OpenMP&amp;Comp-PointerChecker&amp;MKernW&amp;PerfPrimW&amp;ThreadBB]"/>
+      <rpm:entry name="ProductID[3073]"/>
+      <rpm:entry name="MediaID[6K5]"/>
+      <rpm:entry name="intel-cembdw-composer-baseline-meta-windows" flags="EQ" epoch="0" ver="2020.2" rel="1034"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ide_c_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-mkl-wt-tbb-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-icc-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_c_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-mt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-iss-icc-samples" flags="EQ" epoch="0" ver="2020.2"/>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-iss-gsg-win-win" flags="EQ" epoch="0" ver="2020.2"/>
+      <rpm:entry name="intel-mkl-wt-tbb-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-daal-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel_ide_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_unique_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_utilities_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-mkl-wt-tbb-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-daal-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-mkl-wt-tbb-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-daal-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_unique_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-icldbgeng_vs15-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-tbb-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-tbb-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-VisualStudioTools2019_vs16-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-ipp-wt-mt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-icc-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-ism-windows" flags="EQ" epoch="0" ver="2.3"/>
+      <rpm:entry name="intel_ide_utilities_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-F_OpenCL_PCB-msi" flags="EQ" epoch="0" ver="7.0.0"/>
+      <rpm:entry name="intel_ide_utilities_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-daal-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-mt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-daal-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-opencl_cpu_runtime_component-msi" flags="EQ" epoch="0" ver="18.1.016"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_utilities_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-daal-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_c_unique_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-tbb-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ide_utilities_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_utilities_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel_ide_c_unique_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-ipp-wt-mt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_unique_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-installer" flags="EQ" epoch="0" ver="2020.2"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-tbb-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ide_c_unique_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-tbb-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ide_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-tbb-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-iss-ism-windows" flags="EQ" epoch="0" ver="2020.2"/>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-VisualStudioTools2017_vs15-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-mkl-wt-tbb-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-icc-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-ipp-wt-mt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-mkl-wt-tbb-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-ipp-wt-mt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-cembdw-composer-baseline-meta-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.3" rel="1328"/>
+  <checksum type="sha" pkgid="YES">48292b03cff736d92164bce1b2d112064e77813e</checksum>
+  <summary>Intel® System Studio 2020 Update 3 Composer Edition for Windows*</summary>
+  <description>Summary:   Intel® System Studio 2020 Update 3 Composer Edition for Windows*</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602670395" build="1602670388"/>
+  <size package="72886" installed="242816" archive="243840"/>
+<location href="intel-cembdw-composer-baseline-meta-windows-2020.3-1328.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-cembdw-composer-baseline-meta-windows-2020.3-1328.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="10105"/>
+    <rpm:provides>
+      <rpm:entry name="FlexLM[Comp-CW&amp;Comp-OpenMP&amp;Comp-PointerChecker&amp;MKernW&amp;PerfPrimW&amp;ThreadBB]"/>
+      <rpm:entry name="ProductID[3073]"/>
+      <rpm:entry name="MediaID[6K5]"/>
+      <rpm:entry name="intel-cembdw-composer-baseline-meta-windows" flags="EQ" epoch="0" ver="2020.3" rel="1328"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ide_c_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-mkl-wt-tbb-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-icc-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_c_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-mt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-mkl-wt-tbb-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-daal-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-ipp-wt-mt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ide_c_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel_ide_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_unique_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-mkl-wt-tbb-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.4"/>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.4"/>
+      <rpm:entry name="intel-daal-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.4"/>
+      <rpm:entry name="intel_ide_utilities_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-mkl-wt-tbb-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel-daal-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-icldbgeng_vs15-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel-mkl-wt-tbb-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-iss-ism-windows" flags="EQ" epoch="0" ver="2020.3"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel-mkl-wt-tbb-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.4"/>
+      <rpm:entry name="intel-daal-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_unique_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel_ide_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.4"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ide_c_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-daal-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel-tbb-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-tbb-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-VisualStudioTools2019_vs16-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel-icc-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-ipp-wt-mt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-mt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ide_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-daal-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-icc-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.4"/>
+      <rpm:entry name="intel_ww_cmp_archshared_vars_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_c_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_utilities_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-icc-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-ism-windows" flags="EQ" epoch="0" ver="2.3"/>
+      <rpm:entry name="intel_ide_utilities_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-F_OpenCL_PCB-msi" flags="EQ" epoch="0" ver="7.0.0"/>
+      <rpm:entry name="intel_ide_utilities_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-installer" flags="EQ" epoch="0" ver="2020.3"/>
+      <rpm:entry name="intel-ipp-wt-mt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_utilities_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-VisualStudioTools2017_vs15-vsix" flags="EQ" epoch="0" ver="7.0"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-ipp-wt-common-32b-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-daal-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-opencl_cpu_runtime_component-msi" flags="EQ" epoch="0" ver="18.1.016"/>
+      <rpm:entry name="intel_ide_c_unique_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-iss-icc-samples" flags="EQ" epoch="0" ver="2020.3"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_utilities_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ide_c_unique_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel-daal-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel_ide_c_unique_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-tbb-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ide_utilities_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-icc-wt-gs-win" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_utilities_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-ipp-wt-common-64b-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ide_c_unique_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-ipp-wt-mt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_unique_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-ipp-wt-st-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel-mkl-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.3"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-tbb-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-tbb-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ide_c_unique_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel_ide_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-iss-gsg-win-win" flags="EQ" epoch="0" ver="2020.3"/>
+      <rpm:entry name="intel-icc-wt-common-meta-windows" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-ipp-wt-st-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-tbb-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel_ide_common_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel_ide_c_common_libopt_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-mkl-wt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-tbb-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.0"/>
+      <rpm:entry name="intel-daal-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_common_vs2017_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.0"/>
+      <rpm:entry name="intel-ipp-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.3"/>
+      <rpm:entry name="intel-mkl-wt-common-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-mkl-wt-tbb-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-icc-wt-32bit-meta-windows" flags="EQ" epoch="0" ver="19.1.2"/>
+      <rpm:entry name="intel-ipp-wt-mt-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.2"/>
+      <rpm:entry name="intel_ide_c_common_iss_vs2019_p_19.1_msi" flags="EQ" epoch="0" ver="19.1.1"/>
+      <rpm:entry name="intel-mkl-wt-tbb-32bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+      <rpm:entry name="intel-ipp-wt-mt-64bit-meta-windows" flags="EQ" epoch="0" ver="2020.0.1"/>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-installer</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.1" rel="806"/>
+  <checksum type="sha" pkgid="YES">933c977808e1df7ed83f5b0622b388e47ef87c73</checksum>
+  <summary>Intel® System Studio 2020 Update 1 Composer Edition for Windows*</summary>
+  <description>Summary:   Intel® System Studio 2020 Update 1 Composer Edition for Windows*</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1585920765" build="1585658581"/>
+  <size package="39738796" installed="89877529" archive="89888988"/>
+<location href="intel-installer-2020.1-806.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-installer-2020.1-806.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="9275"/>
+    <rpm:provides>
+      <rpm:entry name="installer"/>
+      <rpm:entry name="intel-installer" flags="EQ" epoch="0" ver="2020.1" rel="806"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-installer</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.2" rel="1034"/>
+  <checksum type="sha" pkgid="YES">362dca05c5d9987a4be2a0e477020f8beacddf8f</checksum>
+  <summary>Intel® System Studio 2020 Update 2 Composer Edition for Windows*</summary>
+  <description>Summary:   Intel® System Studio 2020 Update 2 Composer Edition for Windows*</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1594396495" build="1594016812"/>
+  <size package="39777880" installed="89963455" archive="89975324"/>
+<location href="intel-installer-2020.2-1034.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-installer-2020.2-1034.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="9511"/>
+    <rpm:provides>
+      <rpm:entry name="installer"/>
+      <rpm:entry name="intel-installer" flags="EQ" epoch="0" ver="2020.2" rel="1034"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-installer</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.3" rel="1328"/>
+  <checksum type="sha" pkgid="YES">850600c0d611ceb6b1144a1ab8ef5f1e74ccf5ec</checksum>
+  <summary>Intel® System Studio 2020 Update 3 Composer Edition for Windows*</summary>
+  <description>Summary:   Intel® System Studio 2020 Update 3 Composer Edition for Windows*</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602670419" build="1602670404"/>
+  <size package="39777176" installed="89974202" archive="89986436"/>
+<location href="intel-installer-2020.3-1328.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-installer-2020.3-1328.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="9732"/>
+    <rpm:provides>
+      <rpm:entry name="installer"/>
+      <rpm:entry name="intel-installer" flags="EQ" epoch="0" ver="2020.3" rel="1328"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+  </format>
+</package>
+</metadata>

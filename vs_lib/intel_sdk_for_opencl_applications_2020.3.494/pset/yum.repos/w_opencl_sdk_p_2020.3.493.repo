@@ -1,0 +1,5 @@
+[w_opencl_sdk_p_2020.3.493]
+baseurl=${YUM_BASE_URL}/opencl/2020u3/win/
+name=w_opencl_sdk_p_2020.3.493
+enabled=1
+

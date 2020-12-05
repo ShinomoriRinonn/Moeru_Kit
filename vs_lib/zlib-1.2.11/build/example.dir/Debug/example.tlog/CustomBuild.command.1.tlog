@@ -1,0 +1,10 @@
+^J:\GITHUB_REPO\MOERU_KIT\VS_LIB\ZLIB-1.2.11\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SJ:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11 -BJ:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/build --check-stamp-file J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

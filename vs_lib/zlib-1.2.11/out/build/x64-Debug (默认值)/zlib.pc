@@ -1,0 +1,13 @@
+prefix=J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/out/install/x64-Debug (默认值)
+exec_prefix=J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/out/install/x64-Debug (默认值)
+libdir=J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/out/install/x64-Debug (默认值)/lib
+sharedlibdir=J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/out/install/x64-Debug (默认值)/lib
+includedir=J:/Github_Repo/Moeru_Kit/vs_lib/zlib-1.2.11/out/install/x64-Debug (默认值)/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

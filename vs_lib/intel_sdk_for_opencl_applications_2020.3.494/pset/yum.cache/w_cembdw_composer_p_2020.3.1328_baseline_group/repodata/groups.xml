@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<comps>
+  <group>
+    <id>baseline_group</id>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <display_order>0</display_order>
+    <name>Baseline for Intel&#xAE; System Studio 2020 Update 3 Composer Edition for Windows*</name>
+    <description>Baseline for Intel&#xAE; System Studio 2020 Update 3 Composer Edition for Windows*</description>
+    <packagelist>
+      <packagereq type="mandatory">intel-cembdw-composer-baseline-meta-windows</packagereq>
+      <packagereq type="optional">intel-installer</packagereq>
+    </packagelist>
+  </group>
+</comps>

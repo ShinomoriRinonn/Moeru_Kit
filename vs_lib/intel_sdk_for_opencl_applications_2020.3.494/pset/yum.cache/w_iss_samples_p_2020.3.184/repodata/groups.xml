@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<comps>
+  <group>
+    <id>iss_samples_group</id>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <display_order>0</display_order>
+    <name>Samples for Intel System Studio 2019</name>
+    <description>Samples for Intel System Studio 2019</description>
+    <packagelist>
+      <packagereq type="mandatory">intel-iss-icc-samples</packagereq>
+    </packagelist>
+  </group>
+</comps>

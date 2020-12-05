@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otherdata xmlns="http://linux.duke.edu/metadata/other" packages="1">
+<package pkgid="0706a665db81368c0e9675dfe2996a7bc498a5e3" name="intel-iss-gsg-win-win" arch="noarch">
+    <version epoch="0" ver="2020.3" rel="184"/>
+
+</package>
+
+</otherdata>

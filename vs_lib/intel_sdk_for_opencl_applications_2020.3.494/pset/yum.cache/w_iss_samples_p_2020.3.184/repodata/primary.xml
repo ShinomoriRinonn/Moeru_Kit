@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://linux.duke.edu/metadata/common" xmlns:suse="http://novell.com/package/metadata/suse/common" xmlns:rpm="http://linux.duke.edu/metadata/rpm" packages="1">
+<package type="rpm">
+  <name>intel-iss-icc-samples</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.3" rel="184"/>
+  <checksum type="sha" pkgid="YES">b2722cb79856f562bbfa076a7ee5e5eefdaa0700</checksum>
+  <summary>Samples for Intel System Studio 2020 Update 3</summary>
+  <description>Summary:   Samples for Intel System Studio 2020 Update 3</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1601359106" build="1601359097"/>
+  <size package="31710" installed="83509" archive="88540"/>
+<location href="intel-iss-icc-samples-2020.3-184.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2018-2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-iss-icc-samples-2020.3-184.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="5064"/>
+    <rpm:provides>
+      <rpm:entry name="intel-iss-icc-samples" flags="EQ" epoch="0" ver="2020.3" rel="184"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+  </format>
+</package>
+</metadata>

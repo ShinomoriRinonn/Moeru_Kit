@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otherdata xmlns="http://linux.duke.edu/metadata/other" packages="2">
+<package pkgid="3507230abaf2703e27f3fb624e1cacbcfcff5e6a" name="intel-ism-windows" arch="noarch">
+    <version epoch="0" ver="2.3" rel="022"/>
+
+</package>
+
+<package pkgid="b9adeb0efc2bcc915e0992d53803568966d5dd29" name="intel-ism-windows" arch="noarch">
+    <version epoch="0" ver="2.3" rel="032"/>
+
+</package>
+
+</otherdata>

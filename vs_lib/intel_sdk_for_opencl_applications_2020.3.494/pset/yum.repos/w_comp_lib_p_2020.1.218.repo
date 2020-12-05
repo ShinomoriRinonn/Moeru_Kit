@@ -1,0 +1,5 @@
+[w_comp_lib_p_2020.1.218]
+baseurl=${YUM_BASE_URL}/compilers_and_libraries/2020p1/win/
+name=w_comp_lib_p_2020.1.218
+enabled=1
+

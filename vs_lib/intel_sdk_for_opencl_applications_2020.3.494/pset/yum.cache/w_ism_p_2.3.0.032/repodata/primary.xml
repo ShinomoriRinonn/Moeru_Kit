@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://linux.duke.edu/metadata/common" xmlns:suse="http://novell.com/package/metadata/suse/common" xmlns:rpm="http://linux.duke.edu/metadata/rpm" packages="2">
+<package type="rpm">
+  <name>intel-ism-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2.3" rel="022"/>
+  <checksum type="sha" pkgid="YES">3507230abaf2703e27f3fb624e1cacbcfcff5e6a</checksum>
+  <summary>Intel(R) Software Manager</summary>
+  <description>Intel(R) Software Manager</description>
+  <packager>http://www.intel.com/software/products/support</packager>
+  <url>http://www.intel.com</url>
+  <time file="1552473637" build="1551356480"/>
+  <size package="1462040" installed="1607412" archive="1608596"/>
+<location href="intel-ism-windows-2.3-022.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2017 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>ism</rpm:group>
+    <rpm:buildhost>Win7-x64</rpm:buildhost>
+    <rpm:sourcerpm>intel-ism-windows-2.3-022.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="5000" end="7005"/>
+    <rpm:provides>
+      <rpm:entry name="intel-ism-windows" flags="EQ" epoch="0" ver="2.3" rel="022"/>
+    </rpm:provides>
+    <rpm:requires>
+      <rpm:entry name="pset-utils_windows"/>
+    </rpm:requires>
+    <file>/etc/wr.postinstall.d/ism_install.config</file>
+    <file type="dir">/etc/wr.postinstall.d</file>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-ism-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2.3" rel="032"/>
+  <checksum type="sha" pkgid="YES">b9adeb0efc2bcc915e0992d53803568966d5dd29</checksum>
+  <summary>Intel(R) Software Manager</summary>
+  <description>Intel(R) Software Manager</description>
+  <packager>http://www.intel.com/software/products/support</packager>
+  <url>http://www.intel.com</url>
+  <time file="1555686088" build="1555686077"/>
+  <size package="1455753" installed="1597522" archive="1598420"/>
+<location href="intel-ism-windows-2.3-032.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2017 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>ism</rpm:group>
+    <rpm:buildhost>Win7-x64</rpm:buildhost>
+    <rpm:sourcerpm>intel-ism-windows-2.3-032.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="5000" end="6790"/>
+    <rpm:provides>
+      <rpm:entry name="intel-ism-windows" flags="EQ" epoch="0" ver="2.3" rel="032"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+    <file>/etc/wr.postinstall.d/ism_install.config</file>
+    <file type="dir">/etc/wr.postinstall.d</file>
+  </format>
+</package>
+</metadata>

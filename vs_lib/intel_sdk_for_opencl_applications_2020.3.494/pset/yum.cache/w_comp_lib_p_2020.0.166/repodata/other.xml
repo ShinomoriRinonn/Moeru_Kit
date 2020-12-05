@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otherdata xmlns="http://linux.duke.edu/metadata/other" packages="302">
+<package pkgid="391063c5913a0307a3c4cd2bc400518973f2ea90" name="intel_cmp_icl_docs_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="cfb630ef23e5b17104db8b556d5fc92e96f0e9c6" name="intel_cmp_icl_docs_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="b1eb4b823f44405a8de9eddaa0f17f6eddb3a14e" name="intel_cmp_lib_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="472408f55c56357a1333eb873c7c0e2090ccbac4" name="intel_cmp_lib_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="66c925cab938a89071f0ee72d59b988cfd49e133" name="intel_gdb_3rd_party_iss_p_8.3" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="25c22595740187d0fe3ec7e3151adffb7fab7763" name="intel_gdb_3rd_party_iss_p_8.3_msi" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="63bf42b75d25b61dca09c396c4e4d8598d0837d0" name="intel_gdb_cdt_intel64_iss_p_8.3" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="d2805150bf09f91981f4aa9d1612e4364cd57de8" name="intel_gdb_cdt_intel64_iss_p_8.3_msi" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="462692746c82d2eb1f55ae8c621b97543c46a6ce" name="intel_gdb_cdt_src_iss_p_8.3" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="aac880bb3f9198f5de1f49d6eb1da2b01e6612a3" name="intel_gdb_cdt_src_iss_p_8.3_msi" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="58799a65e68e8b3dbc69b7f347f8273c0fdde006" name="intel_gdb_common_intel64_p_8.3" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="ae4838b39abee987bb1442fecac2659323342c6e" name="intel_gdb_common_intel64_p_8.3_msi" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="9ec53d6d361c260c6344f97274db301c63c9495d" name="intel_gdb_docs_p_8.3" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="50a2490f3811cc07dc5b34bf04ca73aea1072272" name="intel_gdb_docs_p_8.3_msi" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="4ae616bd1718d9eeea49fc4fd8c246c1159629de" name="intel_gdb_docs_start_iss_p_8.3" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="98f2f2837bef4a4b2d380515fea62ed084b3868f" name="intel_gdb_docs_start_iss_p_8.3_msi" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="cc9d1eaedc205dc1a820f35e3bfb3f3a5d14d042" name="intel_gdb_lic_p_8.3" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="76184a092d49d5e19412db27e9ddaacb5cde8ca1" name="intel_gdb_lic_p_8.3_msi" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="3ce5f5ef296d94279cb6aa7f6535ebc3b776dc6a" name="intel_gdb_server_iss_p_8.3" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="b173bc5826ab427e136fa771b223d85c0169d5df" name="intel_gdb_server_iss_p_8.3_msi" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="c3f9439dedd32f5b31827b80c94cab84c170ec04" name="intel_gdb_src_p_8.3" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="bc9cc5af0e5d16448e51b30248123f1b4da606b7" name="intel_gdb_src_p_8.3_msi" arch="noarch">
+    <version epoch="0" ver="8.3.0" rel="166"/>
+
+</package>
+
+<package pkgid="e20f602b7677e1ec9047d2994174cde63d336edf" name="intel_ide_c_common_iss_vs2017_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="6368f04959c2405f11569bc836b9dcf7342bbdb9" name="intel_ide_c_common_iss_vs2019_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="95a991d90a3ebd6ec4400ee3dd5263a5434de57e" name="intel_ide_c_common_libopt_vs2017_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="80d4e1d4dbfabfe4ce47e5477b48ba437ed3487f" name="intel_ide_c_common_libopt_vs2019_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="4ff6c161fc2f1d231d8b17b9935be1eb09bccfa0" name="intel_ide_c_common_vs2017_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="b25d52c726f43bfc9507ca81b4a5fa458407bc2b" name="intel_ide_c_common_vs2019_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="1bcecac813a9b2ab114b27b3b714ce0245765a1f" name="intel_ide_c_unique_vs2017_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="024976f91ae150b813ea92558197c99797536608" name="intel_ide_c_unique_vs2019_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="2756fb01f6babc10b03c382b09aae38f58a6c723" name="intel_ide_common_vs2017_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="9445c815ef0d8e7a5db1d8857deedf18d9fbdacd" name="intel_ide_common_vs2019_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="7a8e311cf7219aec6ae92bbaf0af65debddd13b9" name="intel_ide_utilities_vs2017_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="74284a4df9ac24f8e9d4678fb4d54050ba0bd6d6" name="intel_ide_utilities_vs2019_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="e10bb2c79706d24ff30a7125ce48837bf2a4b7ea" name="intel_wl_cmp_archshared_nomcu_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="019bde8d016bbf6dbe609b3876361d5d0e956d37" name="intel_wl_cmp_archshared_nomcu_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="934a08cdf909a412f9bfdfbf005ecb21a3d9564c" name="intel_wl_cmp_archshared_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="b5d4c2f917d913aeec086db1fd71b207e1cd20df" name="intel_wl_cmp_archshared_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="ed38ab8d207bc379d05b1dbed6d6c9149615ff15" name="intel_wl_cmp_archshared_vars_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="1c451fbbff66e96d499b0932de44a01f48806f79" name="intel_wl_cmp_archshared_vars_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="ba7476a9b1f72af13653d48fc09446726f99c0cb" name="intel_wl_cmp_ia32_lin_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="01d67dec89e7ddacf78ac570ac364dbbc0d3e57e" name="intel_wl_cmp_ia32_lin_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="05b5593ee9da9a9aa53009a9b5e5f718071ad34e" name="intel_wl_cmp_ia32_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="a4cee477bdbd61469baa3fa5956f54b9eeb309d9" name="intel_wl_cmp_ia32_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="f530fcb4b192557e60068cd00086df72e6bba0b8" name="intel_wl_cmp_intel64_lin_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="1cf71f7ecc070648667c7f3d621936a2ee6ab6e2" name="intel_wl_cmp_intel64_lin_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="74e88397f4f3d7c7153c7c23bfd8d606d17cf63e" name="intel_wl_cmp_intel64_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="08129dcbafdce73b8cc2ba56378eacdf120af464" name="intel_wl_cmp_intel64_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="943fb3e8664f82639c9f3f37727f75d9fa20a479" name="intel_wl_daal_common_c_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="2a29483a0a9f6da58bcf759409b9604e9dd6be30" name="intel_wl_daal_common_c_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="be02da1b8ffc35c8b315055b5d02c07022cf5985" name="intel_wl_daal_core_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="34e52d10546977e7c618036904ef0e2d911616aa" name="intel_wl_daal_core_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="3b4d0102b085777468b1ec6e5979f23cd4740260" name="intel_wl_daal_core_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="f8fad61cc7c417c950a273985339aac36192c8af" name="intel_wl_daal_core_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="f6847559848f842b6914d5e41d0a0d789e8f9870" name="intel_wl_daal_core_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="3fee34c1cec6ee069bc87138987256577bd88ada" name="intel_wl_daal_core_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="63200434745c53eea98da7313e1c2f14d5ee4120" name="intel_wl_daal_core_intel64_ps_iss_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="a0288ada748eb7136a808e9fd9f9bbba4e47c6c9" name="intel_wl_daal_core_intel64_ps_iss_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="4a593ba9b9a467bca79173e2eb0918ed0fef41b5" name="intel_wl_daal_doc_iss_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="c98b13387f778c8fae56a2af00491e2e657a9070" name="intel_wl_daal_doc_iss_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="12e57a987a39f1f8c53b65ed29985c3d9a132257" name="intel_wl_icc_archshared_all_c_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="2bf6977f98c9e9165de351e9b959be6366cb470a" name="intel_wl_icc_archshared_all_c_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="fb3c013aebd9ae6c93d6dd2e131bea9a2928cee2" name="intel_wl_icc_archshared_lin_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="3a3234b4931ecadc3594e8980cab48ee3250d1d0" name="intel_wl_icc_archshared_lin_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="4856aed710edcbe94632e7451f933e337c5199b2" name="intel_wl_icc_archshared_nomcu_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="65455e1267f3614290d6250df3f98565fce13be0" name="intel_wl_icc_archshared_nomcu_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="66dbacca75a8f1b7ae966c09e856306e5c8647db" name="intel_wl_icc_archshared_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="c9119f6bcdd4eeea4654fa4263c267173d6b78a4" name="intel_wl_icc_archshared_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="4b0b6efb5ae6a13d7d974155c7255d57728c3877" name="intel_wl_icc_ia32_lin_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="c11ec4743fd963827b2ea95189e9240f3e42fdff" name="intel_wl_icc_ia32_lin_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="280bd8296628bf04e9c2bcaa5a1a39a80494a963" name="intel_wl_icc_ia32_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="c0c161211adba4a45e422ffab63031d282d076b8" name="intel_wl_icc_ia32_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="5e545257d4f64cc62bdcde363e8cbe3652b9e113" name="intel_wl_icc_ide_eclipse_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="b0b821230d7028e65b2ea10fd27d63c929103854" name="intel_wl_icc_ide_eclipse_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="d653ea09b41f58fcfe0d0728c411d712add2cf17" name="intel_wl_icc_intel64_lin_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="c2083d83f6690373e3cca0954c37d0aacdf24f97" name="intel_wl_icc_intel64_lin_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="dd65cf72388aac41062416c394fbe03ff57a7641" name="intel_wl_icc_intel64_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="21e4a68c8d602fbce639d1e707035b3a4fbde90e" name="intel_wl_icc_intel64_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="66158b92f316b317e2aa31b0862c249b163a85f6" name="intel_wl_ipp_and_doc_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="6b56f4ce2434cdbba18006158481dff39ea02164" name="intel_wl_ipp_and_doc_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="bc25bcf9dad6c8d1a16d85f8edc04f2b84231bfb" name="intel_wl_ipp_and_st_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="7ed24b44baf1bd4423865cefa10cfd223c033d82" name="intel_wl_ipp_and_st_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="0a657d43afe2349f71e6cc4ec714e49cedc4b2b8" name="intel_wl_ipp_and_st_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="851b54037ae17182fc905d9c968d97891a933d8d" name="intel_wl_ipp_and_st_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="113deb3f5a2fb891383bed9ab64c52e7f123fd9e" name="intel_wl_ipp_core_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="30223825a2ae97f534f2ecf45b4a9ad8d08b4f80" name="intel_wl_ipp_core_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="3ecb6f74ffc459bc30541cb1e646e2a9e96b82f0" name="intel_wl_ipp_core_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="ef47c1ad0dd7b786545115c37aa5d642a8fc5a92" name="intel_wl_ipp_core_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="f131b093d20029e97f9028632954502bef7e41e2" name="intel_wl_ipp_core_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="e727a9e7147a9953f9e82d20fb35266da82fc4e0" name="intel_wl_ipp_core_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="6adede1b19302b74252dcbeeac91435a7e415616" name="intel_wl_ipp_knl_core_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="832f596ce63c07316b08b5a6bd257fc8693f4581" name="intel_wl_ipp_knl_core_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="6a50666ccc36941557ec085971ba52c1fa75030d" name="intel_wl_ipp_knl_st_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="ea360a0f3d962692ab41d6db09c9570cf18dbfc5" name="intel_wl_ipp_knl_st_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="dd0947d86c4c325d4a32db488ee57ad2d912668b" name="intel_wl_ipp_mt_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="c4259499194541ea6d6e8d24e46c303162bc785b" name="intel_wl_ipp_mt_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="06e93f45d6f3ec40929217421cee1644e02bc7b5" name="intel_wl_ipp_mt_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="2a0fceb1f42e302528ff41fd5a8cbabda2f97480" name="intel_wl_ipp_mt_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="525ac88beaf1e97ee4a3db0896133d40adef1d2d" name="intel_wl_ipp_st_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="e402d9b578130cbec37bd437a44b919a7700336c" name="intel_wl_ipp_st_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="08ebcf466dddf0e7cbe5bed65b2f2b92a220c3fb" name="intel_wl_ipp_st_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="6da4a919aa079189ca87c20a8052333848318f58" name="intel_wl_ipp_st_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="d9b1f143e5c873b94e3ab6adcb88ea7cd83dc88a" name="intel_wl_ipp_st_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="2192dbffd1ad557ed1689713137f045f3c9dca9b" name="intel_wl_ipp_st_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="df08b51a3bbf5374f25d1394d8fa769ab7ac1ce0" name="intel_wl_mkl_core_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="41efd56f82bd4fe892f367c3a187cb5ffd4bd48f" name="intel_wl_mkl_core_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="020c1f3039f72e1799e526640bb4f3ae00a8c316" name="intel_wl_mkl_core_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="13c9de327012e4d3fd54565837f7eb0fc8b0cdf1" name="intel_wl_mkl_core_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="7b2999702d123d451d59ca090a98b62fdc5345cd" name="intel_wl_mkl_core_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="0f5b508e189fbf48577f75b0453996a2093ca5d8" name="intel_wl_mkl_core_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="7d9bcedb06f480876ae94c6fa33016603664e3d0" name="intel_wl_mkl_doc_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="7e676f1e3f9c8b4548829f33885f80e26bad2c00" name="intel_wl_mkl_doc_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="2d76910f8ffe0ff72539914118f795937edb5907" name="intel_wl_mkl_gnu_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="90cea8a6208dfcdd4b138da7a1015b412032851c" name="intel_wl_mkl_gnu_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="833dfb76d48b35a7379aec47b2c7af5bd51aefb5" name="intel_wl_mkl_gnu_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="5408d0947af525762f580f181e42b46b54c14b84" name="intel_wl_mkl_gnu_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="dd4da0df70252f85a34f7e27a11aba3990c317cd" name="intel_wl_mkl_tbb_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="cb22cb94b57fbdf14d3a1fbe6a0eed2c72c210bc" name="intel_wl_mkl_tbb_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="48b87634f8f4224aa01d206dd6a574311d6b7b6e" name="intel_wl_mkl_tbb_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="b90cd78d0239d584a4fc872fd1b9e50d65483599" name="intel_wl_mkl_tbb_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="06531a770c924c9bd4e2a0abdd93a778f12dbf97" name="intel_wl_openmp_ia32_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="096d889544fb7ef034141650cbb67b2a0688baf7" name="intel_wl_openmp_ia32_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="98b7036d0b3b365d322dae23a3f2c950f92096ea" name="intel_wl_openmp_intel64_a_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="651fee213ac4c00aeeb5ec40ddd1e3d91e76e3c6" name="intel_wl_openmp_intel64_a_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="1ddd27c281892bf5b3ef4f2f08aa0dcf2333bef8" name="intel_wl_openmp_intel64_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="34516a304b13341e3437bc3e9485ddb8a1516d13" name="intel_wl_openmp_intel64_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="8d0dd8fb093ebb5a649d21fc50f31fc64702ca45" name="intel_wl_pstl_core_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="c5ccc83241ecd9288b53dc31baab6352bd39b5cc" name="intel_wl_pstl_core_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="7e668937440eb0ed53ffaa9478939557357b586c" name="intel_wl_tbb_and_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="3bfa85db9d1eff6bc2a610b149330435d84b1a7c" name="intel_wl_tbb_and_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="2eadead734c77d4a58bf29fcf86b9b04d131a4a7" name="intel_wl_tbb_core_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="85fb25738d81c0a1d7686b3814cc3a750218e242" name="intel_wl_tbb_core_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="4d1df44dfedc4035812036919e77657c9f92389c" name="intel_wl_tbb_core_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="0215e134654872452744ec06a0ef5a1878bf7636" name="intel_wl_tbb_core_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="72d67e04d2f61e6ff5261972318d5ffd912f49dc" name="intel_wl_tbb_core_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="815fcc4d46d67b344759c70a22df8df03c6459d8" name="intel_wl_tbb_core_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="64ef7e851a7cd849dcb6c796bf39f98743b6e396" name="intel_wl_tbb_emb_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="f4c5b9c17a93d3180a602556780d1270d38a7462" name="intel_wl_tbb_emb_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="fa4132cea6a051dc9ab43e00cc1908eff951146c" name="intel_wl_tbb_libs_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="a13b0cde6b3b75e4e61c7a9da12f2b1a3292a090" name="intel_wl_tbb_libs_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="782dd6cdec52fea0fb13ebd5985335dabf94c0d3" name="intel_ww_cmp_archshared_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="c0a1a2e522832f58c1a408cc720c215acacd43b6" name="intel_ww_cmp_archshared_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="117f64997033a35a3d37161f53ec1b3e9c7ca568" name="intel_ww_cmp_archshared_vars_icx_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="bb157dbd9acba8528faceb2c7983b21264bed1a2" name="intel_ww_cmp_archshared_vars_icx_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="82186b3ecef9b9c44c32ea0681607b5c92e394e8" name="intel_ww_cmp_archshared_vars_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="991f7833526087e80347940b0d8b15eb1933408e" name="intel_ww_cmp_archshared_vars_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="3ee148cb1b060784971b69ec41d5de5a344bed51" name="intel_ww_cmp_ia32_cross_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="1efd30ffac284f9297d569ca02e3a5dcdf9e25d9" name="intel_ww_cmp_ia32_cross_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="d3637658140e625f0e03bac1e3ba03716f8a94bf" name="intel_ww_cmp_ia32_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="62bfa9a3ab923689410b655628f8578e21e20bab" name="intel_ww_cmp_ia32_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="627fe7617d97c6e159464d4afe59b3b57de6ab0e" name="intel_ww_cmp_intel64_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="ff859f1819ac6afa977a010349e6f878559c346c" name="intel_ww_cmp_intel64_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="0d3ff5fa8a6ace5c667ec2f41f79db94c0aeba94" name="intel_ww_daal_common_c_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="d0b831f9a391365868d7015c45bb13710e9e03ec" name="intel_ww_daal_common_c_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="e5847166015987e3e45d548f9581a580c8d9a71d" name="intel_ww_daal_core_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="16f143194be321c840f7459fd2c7d80994716047" name="intel_ww_daal_core_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="102ce160bf85c3b71ab2aba6d9da62d10fd90d68" name="intel_ww_daal_core_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="1f11d8efe0b7f3ff01e4f003a1501f00506f274c" name="intel_ww_daal_core_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="dfa82b5a84cbbb19bfbb33d228b909bf849cdbd5" name="intel_ww_daal_core_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="2b817638fc3b14b0cffb47bf436053a06cd31f8b" name="intel_ww_daal_core_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="0a2924f8e251bbc89127fc4affe955b6de41e7fd" name="intel_ww_daal_doc_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="3845fe2071225ca4005679a609386f5b72d2183b" name="intel_ww_daal_doc_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="296fdd3dc2d0c63f2160527c0759cfa3efc6f5f8" name="intel_ww_daal_doc_iss_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="4032e5d29a5281af65655da4d0ae75c56208603c" name="intel_ww_daal_doc_iss_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="5c383c040edb1cc84cdddf492b7770ba56fbf163" name="intel_ww_daal_lic_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="11e4021d5c4b6bc5fae44928384bdc383081243c" name="intel_ww_daal_lic_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="d87924d8a3665dbdcbfd50a6d0dceaac1158c07f" name="intel_ww_icl_archshared_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="1d5cb6c0a1bc809ef937c548bf55544517683c78" name="intel_ww_icl_archshared_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="9c52cc46230df05cb553628751693c0e3f25bea1" name="intel_ww_icl_archshared_vars_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="397e3ca3bedbd4b08955a92e54cfa30b6bb2ff20" name="intel_ww_icl_archshared_vars_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="fe8f621c164f7f820e39ae5e14386d15d8355459" name="intel_ww_icl_ia32_cross_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="b0bd7a186a8ea8521a94686a221b6580ee595ff6" name="intel_ww_icl_ia32_cross_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="343873bd66204f55336b0f7a1075fde4f604a5b3" name="intel_ww_icl_ia32_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="067daa2e3f68eb24685effd1f36f49ec8640c4ad" name="intel_ww_icl_ia32_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="fa15f2682083593572bf0fa98bad1feb90febccd" name="intel_ww_icl_intel64_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="1651cc6069aaad3c1cc908edb7f70902784cec7c" name="intel_ww_icl_intel64_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="42770170a4479ada5621f7d5946e14fdd79a5bb9" name="intel_ww_icx_intel64_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="0752625af57ede11260bc6cd269868c65cda6f6e" name="intel_ww_icx_intel64_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="e32725053637f96d0a5b776b0d6e9c1fd47f4f5b" name="intel_ww_ipp_core_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="fd4db3c0bfb7fdda95ea774a043d37d3393fd712" name="intel_ww_ipp_core_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="8c092d68d3befd0eb871cb6658f74a7fcd4df212" name="intel_ww_ipp_core_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="810fc5bb9f386dd4cb9dd674ebc7cb894d4e0e42" name="intel_ww_ipp_core_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="aec1f7e4e85d1441eb43258b6b1b6a72951b7f68" name="intel_ww_ipp_core_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="708b5505a2af50cd582286868d56a44b0d5c7095" name="intel_ww_ipp_core_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="1832667b308d08175ac935bee7cb4623fc163883" name="intel_ww_ipp_crypto_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="d8ca973fd292b77e26fb268c0f8ef475f408d91f" name="intel_ww_ipp_crypto_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="77f2411a74f5f8ca15c25ed8e745bff060f18cdf" name="intel_ww_ipp_crypto_doc_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="c9575e0698af7fc261cc8fa06571b979899ca978" name="intel_ww_ipp_crypto_doc_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="889048a8d75443869314798c9b96e31814b48342" name="intel_ww_ipp_crypto_lic_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="eecba9c92cd31a1d2a72eeb073889e000d52937e" name="intel_ww_ipp_crypto_lic_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="d5813430ecaa562eb4864798642f2dfac2f8de36" name="intel_ww_ipp_crypto_st_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="a53ae9dafb2235f39b241d0336cee825dbd5ff9e" name="intel_ww_ipp_crypto_st_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="d67788d70248fdebd25ee9c90d4bb4982fcd30d8" name="intel_ww_ipp_crypto_st_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="2b043399986c58966937db63b7cfe4565111d966" name="intel_ww_ipp_crypto_st_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="a467038091574bd5f86279c26ecc154de1bec528" name="intel_ww_ipp_doc_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="7e0cbf558539692765602e2576bddd1c662f140c" name="intel_ww_ipp_doc_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="3094170942d00a06350b678c80caddcc093d674b" name="intel_ww_ipp_examp_syml_ps_iss_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="ada284a632bca6231c3a71e7e0685fb3a77aa3b0" name="intel_ww_ipp_examp_syml_ps_iss_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="c5ea876cc73fdbd9019598a3c307127d8414a577" name="intel_ww_ipp_mt_ia32_iss_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="4ed4823d7fde9e1044346320d14b6b4d27059b0d" name="intel_ww_ipp_mt_ia32_iss_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="8fb2e931f3413a4d612293c0fbb201626ef5ab80" name="intel_ww_ipp_mt_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="97e06caa79855e8d32406febca1c163bf51d75b2" name="intel_ww_ipp_mt_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="e4006c8e51fa80e1d7197bf75493f5b68ec78249" name="intel_ww_ipp_mt_intel64_iss_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="8c2f52b1209a0d7038c93da16d2c29d0c2040b93" name="intel_ww_ipp_mt_intel64_iss_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="f778effa29acd84f386bd83999fa84066ee7b425" name="intel_ww_ipp_mt_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="39647153040f8253ffca53fbbaf0bc57504469ab" name="intel_ww_ipp_mt_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="ca4c95d9ae333d525caba0fe5a716f3764703d6e" name="intel_ww_ipp_st_common_iss_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="8153f4dbd39d5bd83818d6a8d43d08642000a173" name="intel_ww_ipp_st_common_iss_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="6492137c2be681ea729f837b9513e33a34574421" name="intel_ww_ipp_st_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="bcbb1b99e656e5f690b18c53f28f77fd4a20cabf" name="intel_ww_ipp_st_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="c6c295082fe9fb2dd6eae1a0ee7cea75c1feef3d" name="intel_ww_ipp_st_ia32_iss_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="0b5f2d5a50d608867297fff8c99e734a635bb444" name="intel_ww_ipp_st_ia32_iss_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="1df1f001cb8fd92b0a0c5b5e1b5e8956471be0c6" name="intel_ww_ipp_st_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="70f852c84a2e3169cf28c499a0f584e7a8912083" name="intel_ww_ipp_st_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="782dcfcb4e532ce56fc8a1fd2aaea0374c1ce09e" name="intel_ww_ipp_st_ia32_ps_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="dd153faf27eae7a6648d5506661b6fda5ee1e009" name="intel_ww_ipp_st_ia32_ps_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="0ec4c2d85d14f65056e5cd90f0bba02b43c680fa" name="intel_ww_ipp_st_intel64_iss_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="5d2c7b7d9086b9997f8bb7e9d3cf0cba87edfac8" name="intel_ww_ipp_st_intel64_iss_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="4fa667079d4bb56061d2d14ac0fba8199500e6a1" name="intel_ww_ipp_st_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="77b920b0334e2aea174eb315d950db8e554cf2c6" name="intel_ww_ipp_st_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="4ac824f03c78f1e6cab97eda3d928db19cc79966" name="intel_ww_ipp_st_intel64_ps_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="439a5db161ccf3b5ab4dd8e9637c22416c035367" name="intel_ww_ipp_st_intel64_ps_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="b98724b01a80e03b1e02d104a8288687011a469b" name="intel_ww_mkl_c_core_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="9a2ff6c975918ea7a049f0e7e7178b39f34f8353" name="intel_ww_mkl_c_core_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="79815c6aac305de06234943094572aaab61e08db" name="intel_ww_mkl_c_core_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="760f8ff78eaf2556ea8e0f931208ac66f964ec72" name="intel_ww_mkl_c_core_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="ff40f8b0cb27acdc57f34f2952b0b49a1b3d94fc" name="intel_ww_mkl_c_core_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="c8c1ee99a71b56c5e7326f792ad414ce7b3cc269" name="intel_ww_mkl_c_core_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="a106d8804a171b7152b83e63e3754f3bff734574" name="intel_ww_mkl_c_core_ps_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="24cea1a3803609df11519b9685112a8dcde53cfb" name="intel_ww_mkl_c_core_ps_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="dd64ef4ed216d2c29ba9eecb90bff9c9f2a8ed22" name="intel_ww_mkl_c_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="a83b0b90a36274f326e3f78de17320a20c9cd430" name="intel_ww_mkl_c_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="3b09060eaa93450f3c1be4013bcbcddc5e8586f9" name="intel_ww_mkl_core_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="e81e977e885dee2e58487456d85ff71ffb6190c7" name="intel_ww_mkl_core_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="1aff5bcc3c78900e1f508c0b381efe0286abf307" name="intel_ww_mkl_core_common_ps_iss_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="c7a7736d419f596dca9d333cd48c8effb703d3bf" name="intel_ww_mkl_core_common_ps_iss_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="aa389d793881348401598fdcf926ef5ebca1733e" name="intel_ww_mkl_core_common_ps_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="a7c518af74abaaf80d4f26c1bf0d661c6c0a3fa1" name="intel_ww_mkl_core_common_ps_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="7a01f1637f83371f33f8b131b38570f2effda6e2" name="intel_ww_mkl_core_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="65ca00773e8622f9423d382982255987c190ea33" name="intel_ww_mkl_core_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="bc6154743796bb683a61ba630901066b23bfe9c5" name="intel_ww_mkl_core_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="fdef678591ce3bf7517700f5c4c41cd097f5712f" name="intel_ww_mkl_core_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="967010a52741cca0050af42ecdf79fe6890317f3" name="intel_ww_mkl_core_ps_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="456584d2a23b2c22e75ad5266e26c6a5fae44060" name="intel_ww_mkl_core_ps_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="0c5d7f98f881fc5a5945223f4189d30312fd4001" name="intel_ww_mkl_doc_iss_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="c6acb3c4920dd88884a55451e65a8ad7c6a5740f" name="intel_ww_mkl_doc_iss_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="8358c829acf3f2bc4bf93892685d48a1a34b50e6" name="intel_ww_mkl_doc_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="fecd100ceb4d82f4286230a7628fdfca941214ee" name="intel_ww_mkl_doc_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="d802e47ef6f6da7ffe055386bfd683948fdbfe1b" name="intel_ww_mkl_examples_c_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="bb5198680763de1b2ac26192d805c94717194625" name="intel_ww_mkl_examples_c_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="25a22442f31072e310be879765706276bb342a7e" name="intel_ww_mkl_f_core_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="ae0f8d3cfe46abbb649b2c480072f33ef9e21539" name="intel_ww_mkl_f_core_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="8c9ac5f3c9958042382fbc5270adbb11dc326074" name="intel_ww_mkl_f_core_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="f0ee9d9a0009e0a8a016f9f0faea5bb434745c12" name="intel_ww_mkl_f_core_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="9b353fbd87d200c82c55eb2a389f49c472f644d2" name="intel_ww_mkl_f_core_ps_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="f592d88dfe5ccb2ff5be38d8c09b14d1ef4ef2c1" name="intel_ww_mkl_f_core_ps_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="3f1da27fe2d9b1bcb6240e411f465a5b030507e0" name="intel_ww_mkl_f_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="c1e7d4a3e91ddb121d9535e931edf9911a91b83f" name="intel_ww_mkl_f_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="89af761b30ef55c88545846d824052077bdb8149" name="intel_ww_mkl_pgi_c_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="b0c1b190feec46b181b4c9a8b6345a6bdabb9af7" name="intel_ww_mkl_pgi_c_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="6902921853025d0921c311d55f32739b3512a78f" name="intel_ww_mkl_pgi_common_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="baacfe17b54d30e37dcd8077103ebca6276f540f" name="intel_ww_mkl_pgi_common_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="0f225fad82712013baf74fa08a25fa9c20401c62" name="intel_ww_mkl_tbb_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="d087a6cc1fd78d6e66a5f1149618755be7d8ea3b" name="intel_ww_mkl_tbb_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="97ecae719cd07d3a2e3f4dd09de4e58671e6d92f" name="intel_ww_mkl_tbb_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="d894433b861cbdcbfc439d03b2b7b7cbd3d7b428" name="intel_ww_mkl_tbb_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="cc0d333a675e157bd9a3ca273ea1db3052ae4965" name="intel_ww_openmp_ia32_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="2a722b9bd9de072fbad66c3089af336594a89d48" name="intel_ww_openmp_ia32_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="b54e18a7531f923ff37e135e4c5145ebdcb6224e" name="intel_ww_openmp_intel64_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="8216e5f4dd667b5f993f077890fcbb1bedca3537" name="intel_ww_openmp_intel64_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="e655aa9aaec95302b3c7e50433d99f9670a27566" name="intel_ww_pstl_core_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="1b4909e0c838dc94aa1776d8ce678d3660d6cf0f" name="intel_ww_pstl_core_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="1f739341ae605a97a5e58ee6a75cb7e27bf563ec" name="intel_ww_pstl_doc_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="f9fa5177a87a9490d3053549976b81615136fb6d" name="intel_ww_pstl_doc_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="ba1b52215121dda0192952273ed0a02b4ea5b34c" name="intel_ww_sl_redist_ia32_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="43fb6237ef122ef1ab0d2fe2f8411187be354622" name="intel_ww_sl_redist_ia32_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="713911b9a31ec61ee3a2a3c3acda8bd98164eece" name="intel_ww_sl_redist_intel64_p_19.1" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="3a87b9274b2e69a66023b406792491d6129b2c97" name="intel_ww_sl_redist_intel64_p_19.1_msi" arch="noarch">
+    <version epoch="0" ver="19.1.0" rel="166"/>
+
+</package>
+
+<package pkgid="9f1c92e6f485cf8108c95113eb52e34042af632c" name="intel_ww_tbb_core_common_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="5b06f4133632577a3a532c795e6645ba36d7a5a9" name="intel_ww_tbb_core_common_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="d0ea1d8251121a6f69908ba5a8b3a31dd7b405d8" name="intel_ww_tbb_core_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="cd90d9300cecd07152a645cbb9d19361b180fdd9" name="intel_ww_tbb_core_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="0e583b5413f4a38c3022431675c45161cd63c362" name="intel_ww_tbb_core_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="704db7d1cde5a4534eaa0cfc4286fb7bd761e47c" name="intel_ww_tbb_core_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="be9f98d9e08f2f7678cf084777c9fbcf48fec0e8" name="intel_ww_tbb_doc_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="1d384d5c3f5d20d9afbdd9dcc4e73e44fb24661f" name="intel_ww_tbb_doc_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="1266ddff50f37421b4567ed9748113c84fc18b21" name="intel_ww_tbb_libs_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="2b8bb3524cb71826886b0c2a18e0d0d7216f8d55" name="intel_ww_tbb_libs_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="db66fa5ea9f1884fd900f46a924aad2d14b4322b" name="intel_ww_tbb_libs_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="730b8b48752606ecff34798e34c0ddecc9156051" name="intel_ww_tbb_libs_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="dc9943516873a8d9524196e9672272380b60e7eb" name="intel_ww_tbb_libs_standalone_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="e1f67d4884d0f6c4f8750b1464ecde49d18d61eb" name="intel_ww_tbb_libs_standalone_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="52013ba561cc9c00c8fdb2f06710494447ffc7a7" name="intel_ww_tbb_libs_standalone_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="1b35f2aa24c1ee8865081f647c592c68a1d303cc" name="intel_ww_tbb_libs_standalone_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="8aad0ef61757001d0589c1240686d00e5459a2bd" name="intel_ww_tbb_libs_studio_ia32_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="0b20e2ee2d28c83f5857d6043436bb92da44fc0a" name="intel_ww_tbb_libs_studio_ia32_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="6690c50f76150d2aeb18c45c209975dcd936a31c" name="intel_ww_tbb_libs_studio_intel64_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="b4946c0bf8fcb66e092dddf7e3057887bea37a96" name="intel_ww_tbb_libs_studio_intel64_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="06cb295ae4d78518c39b5248c32daf85bf16d4db" name="intel_ww_tbb_lic_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="7bf3f145b37f668665623eb19561d3db0b661785" name="intel_ww_tbb_lic_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="844aba2a4d947bb3379fe62cc633f8345a6a7994" name="intel_ww_tbb_src_p_20.0" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+<package pkgid="a47b32c8ad4500417da35d7e0b25dc7f6976c8f1" name="intel_ww_tbb_src_p_20.0_msi" arch="noarch">
+    <version epoch="0" ver="20.0.0" rel="166"/>
+
+</package>
+
+</otherdata>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otherdata xmlns="http://linux.duke.edu/metadata/other" packages="5">
+<package pkgid="970507525027eb8b6e9a9e7a9a8e3363c7074799" name="intel-F_OpenCL_PCB-msi" arch="noarch">
+    <version epoch="0" ver="7.0.0" rel="4443"/>
+
+</package>
+
+<package pkgid="f74a98b7f1d5fee89058434d8b25d94031e5d641" name="intel-VisualStudioTools2017_vs15-vsix" arch="noarch">
+    <version epoch="0" ver="7.0" rel="0"/>
+
+</package>
+
+<package pkgid="2ac10e3b54eaede3c2128f131c42d1151c2029ea" name="intel-VisualStudioTools2019_vs16-vsix" arch="noarch">
+    <version epoch="0" ver="7.0" rel="0"/>
+
+</package>
+
+<package pkgid="50806b48a72c1144bd16192a9e5bc20fb7c7fc0f" name="intel-icldbgeng_vs15-vsix" arch="noarch">
+    <version epoch="0" ver="7.0" rel="0"/>
+
+</package>
+
+<package pkgid="6b0e17c95163518c9d173900d26feb84102e11a7" name="intel-opencl_cpu_runtime_component-msi" arch="noarch">
+    <version epoch="0" ver="18.1.016" rel="0"/>
+
+</package>
+
+</otherdata>

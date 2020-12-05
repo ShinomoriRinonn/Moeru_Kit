@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://linux.duke.edu/metadata/common" xmlns:suse="http://novell.com/package/metadata/suse/common" xmlns:rpm="http://linux.duke.edu/metadata/rpm" packages="4">
+<package type="rpm">
+  <name>intel-iss-ism-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.0" rel="528"/>
+  <checksum type="sha" pkgid="YES">0b70182954a62b859b9dd3cd31677ceb630d2473</checksum>
+  <summary>Intel Software Manager</summary>
+  <description>Summary:   Intel Software Manager</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1575532971" build="1575272858"/>
+  <size package="21985" installed="459664" archive="461080"/>
+<location href="intel-iss-ism-windows-2020.0-528.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2019 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-iss-ism-windows-2020.0-528.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="2919"/>
+    <rpm:provides>
+      <rpm:entry name="intel-iss-ism-windows" flags="EQ" epoch="0" ver="2020.0" rel="528"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+    <file>/etc/wr.startmenu.d/Intel Software Manager.startmenu</file>
+    <file type="dir">/etc/wr.startmenu.d</file>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-iss-ism-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.1" rel="806"/>
+  <checksum type="sha" pkgid="YES">2668ec3e93bad9eb585e820916312b733e0441e7</checksum>
+  <summary>Intel Software Manager</summary>
+  <description>Summary:   Intel Software Manager</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1585920765" build="1585658570"/>
+  <size package="22248" installed="459664" archive="461080"/>
+<location href="intel-iss-ism-windows-2020.1-806.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-iss-ism-windows-2020.1-806.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="3183"/>
+    <rpm:provides>
+      <rpm:entry name="intel-iss-ism-windows" flags="EQ" epoch="0" ver="2020.1" rel="806"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+    <file>/etc/wr.startmenu.d/Intel Software Manager.startmenu</file>
+    <file type="dir">/etc/wr.startmenu.d</file>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-iss-ism-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.2" rel="1034"/>
+  <checksum type="sha" pkgid="YES">cd68eb7ac1bcab5e37aa64fc2ed6352833370832</checksum>
+  <summary>Intel Software Manager</summary>
+  <description>Summary:   Intel Software Manager</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1594396496" build="1594016794"/>
+  <size package="22256" installed="459664" archive="461080"/>
+<location href="intel-iss-ism-windows-2020.2-1034.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-iss-ism-windows-2020.2-1034.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="3187"/>
+    <rpm:provides>
+      <rpm:entry name="intel-iss-ism-windows" flags="EQ" epoch="0" ver="2020.2" rel="1034"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+    <file>/etc/wr.startmenu.d/Intel Software Manager.startmenu</file>
+    <file type="dir">/etc/wr.startmenu.d</file>
+  </format>
+</package>
+<package type="rpm">
+  <name>intel-iss-ism-windows</name>
+  <arch>noarch</arch>
+  <version epoch="0" ver="2020.3" rel="1328"/>
+  <checksum type="sha" pkgid="YES">75afb7bb577662b0ae0ef549f7841a28739e685e</checksum>
+  <summary>Intel Software Manager</summary>
+  <description>Summary:   Intel Software Manager</description>
+  <packager></packager>
+  <url>http://www.intel.com/software/products/</url>
+  <time file="1602670401" build="1602670396"/>
+  <size package="22253" installed="459664" archive="461080"/>
+<location href="intel-iss-ism-windows-2020.3-1328.noarch.rpm"/>
+  <format>
+    <rpm:license>Copyright (C) 2020 Intel Corporation. All rights reserved.</rpm:license>
+    <rpm:vendor>Intel Corporation</rpm:vendor>
+    <rpm:group>Development/Tools</rpm:group>
+    <rpm:buildhost>nnspidt005.inn.intel.com</rpm:buildhost>
+    <rpm:sourcerpm>intel-iss-ism-windows-2020.3-1328.src.rpm</rpm:sourcerpm>
+    <rpm:header-range start="888" end="3187"/>
+    <rpm:provides>
+      <rpm:entry name="intel-iss-ism-windows" flags="EQ" epoch="0" ver="2020.3" rel="1328"/>
+    </rpm:provides>
+    <rpm:requires>
+    </rpm:requires>
+    <file>/etc/wr.startmenu.d/Intel Software Manager.startmenu</file>
+    <file type="dir">/etc/wr.startmenu.d</file>
+  </format>
+</package>
+</metadata>

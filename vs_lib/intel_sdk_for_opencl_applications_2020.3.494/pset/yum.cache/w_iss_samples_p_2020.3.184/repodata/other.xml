@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<otherdata xmlns="http://linux.duke.edu/metadata/other" packages="1">
+<package pkgid="b2722cb79856f562bbfa076a7ee5e5eefdaa0700" name="intel-iss-icc-samples" arch="noarch">
+    <version epoch="0" ver="2020.3" rel="184"/>
+
+</package>
+
+</otherdata>

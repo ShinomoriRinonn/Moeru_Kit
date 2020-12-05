@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<comps>
+  <group>
+    <id>ism_shorcut</id>
+    <default>false</default>
+    <uservisible>false</uservisible>
+    <display_order>1</display_order>
+    <name>ISM shortcut</name>
+    <description>ISM shortcut</description>
+    <packagelist>
+      <packagereq type="mandatory">intel-iss-ism-windows</packagereq>
+    </packagelist>
+  </group>
+</comps>

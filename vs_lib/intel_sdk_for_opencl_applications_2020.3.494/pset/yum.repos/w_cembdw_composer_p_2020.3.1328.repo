@@ -1,0 +1,12 @@
+[w_cembdw_composer_p_2020.3.1328_baseline_group]
+baseurl=${YUM_BASE_URL}/iss/2020/win_win/composer/baselines
+enabled=1
+name=baseline_group
+baseline=intel-cembdw-composer-baseline-meta-windows-2020.3-1328.noarch
+
+
+[w_cembdw_composer_p_2020.3.1328_ism_group]
+baseurl=${YUM_BASE_URL}/iss/2020/win_win/composer/ism
+enabled=1
+name=ism_group
+
